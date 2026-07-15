@@ -1,0 +1,181 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guia de Roll Anime to Fight: Melhores Estratégias de Ondas e Configuração de Equipe",
+  description: "Domine o guia de Roll Anime to Fight. Aprenda a otimizar sua equipe, fundir duplicatas, gerenciar mutações e sobreviver a ondas infinitas de inimigos.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/161126/fff?text=Wave+Progression+Guide",
+  date: "2026-07-15",
+  author: "Equipe Wiki de Roll Anime to Fight"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Mecânica Principal**: Role unidades de anime raras, funda duplicatas e sobreviva a ondas infinitas de inimigos.
+- **Equilíbrio de Equipe**: Misture alto DPS de alvo único com ampla cobertura de área de efeito (AOE).
+- **Regra de Fusão**: Sempre selecione sua unidade mutacionada mais forte como base antes de fundir as cópias.
+- **Objetivos de Checkpoint**: Alcance marcos mais altos para garantir recompensas de progressão permanentes.
+</Callout>
+
+<Section icon={Map} title="Introdução ao Guia de Roll Anime to Fight">
+
+O ciclo principal de **Roll Anime to Fight** gira em torno de rolar para obter lutadores de anime poderosos, organizá-los em uma equipe de combate equilibrada e defender sua base contra ondas de inimigos cada vez mais difíceis. Ter sucesso neste simulador do Roblox requer uma compreensão clara das estatísticas dos lutadores, eficiência de fusão e recompensas de checkpoint. Espalhar seus recursos demais é a maneira mais rápida de bater em uma barreira de progressão.
+
+**Destaques do Vídeo:**
+- **Rolagem de Lutadores**: Como usar sua moeda inicial para obter sua primeira escalação ativa.
+- **Defesa de Ondas**: Posicionamento e gerenciamento do seu esquadrão ativo durante o combate.
+- **Básico de Fusão**: Combinar duplicatas idênticas para multiplicar o dano total da sua equipe.
+
+<YouTubeEmbed videoId="EB0sQkBp2s0" title="สุ่มอนิเมะมาป้องกันบ้านใน Roblox : Roll Anime to Fight!" />
+
+Para progredir de forma eficiente desde a primeira onda, os jogadores devem se concentrar em melhorar uma equipe principal pequena e de alto desempenho, em vez de subir o nível de cada unidade de raridade baixa que obtiverem.
+
+| Estágio | Objetivo Principal | Atividade-Chave | Foco de Recursos |
+|---|---|---|---|
+| **Início do Jogo** | Preencher slots ativos | Rolagem e Configuração de Equipe | Rolagens Básicas |
+| **Meio do Jogo** | Avançar Checkpoints | Fusão de Duplicatas | Nivelamento Focado |
+| **Fim do Jogo** | Maximizar Ondas | Otimização de Mutações | Mutações Elite |
+
+<Callout type="tip" title="Dica de Profissional">
+Nunca descarte unidades mutacionadas no início. Mesmo lutadores de raridade baixa com mutações de elite podem superar unidades Lendárias limpas nos primeiros checkpoints.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Seleção de Lutadores e Comparação de Raridade">
+
+Os lutadores são definidos por sua raridade, Dano por Segundo (DPS), Alcance (RNG), Tempo de Recarga (CD) e mutações ativas. Embora obter uma unidade Mítica seja altamente benéfico, entender como essas estatísticas interagem ajudará você a construir uma equipe muito mais coesa.
+
+<CardGrid cols={3}>
+  <Card title="Mítico & Lendário">
+    - **Maior dano base**
+    - Excelente escalonamento por nível
+    - Essencial para a sobrevivência em ondas altas
+  </Card>
+  <Card title="Lutadores Mutacionados">
+    - **Gold, Diamond, Nen, Titan**
+    - Multiplica o desempenho base
+    - Cria ramificações de melhoria separadas
+  </Card>
+  <Card title="Duplicatas Padrão">
+    - **Sem etiquetas de mutação especiais**
+    - Usados principalmente como alimento de fusão
+    - Preenchem lacunas de slots no início do jogo
+  </Card>
+</CardGrid>
+
+Sempre compare a carta completa do lutador em vez de escolher unidades baseando-se apenas na cor da raridade. Uma unidade de ataque rápido com menor tempo de recarga frequentemente pode causar mais dano prático do que uma unidade de ataque lento com maior poder base.
+
+| Raridade / Tipo | Classificação de DPS Base | Alcance (RNG) | Tempo de Recarga (CD) | Prioridade para Guardar |
+|---|---|---|---|---|
+| **Mítico** | ★★★★★ | Longo | Médio | Altíssima |
+| **Lendário** | ★★★★☆ | Médio | Rápido | Alta |
+| **Mutacionado (Nen/Titan)**| ★★★★★ | Varia | Varia | Alta |
+| **Mutacionado (Gold/Dia)** | ★★★★☆ | Varia | Varia | Média-Alta |
+| **Raro / Comum** | ★★☆☆☆ | Curto | Lento | Material de Fusão |
+
+<Callout type="warning" title="Aviso Importante">
+Verifique duas vezes os bloqueios de suas unidades antes de realizar fusões em massa. É fácil consumir acidentalmente um lutador mutacionado raro ao melhorar duplicatas padrão.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Ciclo de Progressão de Equipe Passo a Passo">
+
+Para maximizar sua eficiência durante as rodadas de ondas, siga este ciclo de progressão estruturado. Este caminho evita o desperdício de recursos e garante que o dano da sua equipe aumente de forma consistente junto com a vida dos inimigos.
+
+<Steps>
+  <Step num="1" title="Role sua Primeira Escalação">
+    Gaste sua moeda inicial para rolar lutadores. Seu objetivo imediato é preencher cada um dos slots ativos da equipe. Não funda nada até que sua equipe esteja completa.
+  </Step>
+  <Step num="2" title="Equilibre Alvo Único e AOE">
+    Equipe uma mistura de causadores de dano rápido de alvo único para derreter chefes e unidades de cobertura de área ampla para limpar grupos densos de inimigos comuns.
+  </Step>
+  <Step num="3" title="Isole as Ramificações Mutacionadas">
+    Quando você rolar variantes mutacionadas como Nen ou Titan, bloqueie-as imediatamente. Essas unidades devem ser niveladas como linhas de melhoria independentes e premium.
+  </Step>
+  <Step num="4" title="Funda Duplicatas Padrão">
+    Alimente seus lutadores principais equipados com duplicatas limpas e não mutacionadas para aumentar seus níveis. Concentre-se em nivelar seus causadores de dano primários primeiro.
+  </Step>
+  <Step num="5" title="Avance para o Próximo Checkpoint">
+    Entre nas ondas e avance o máximo possível. Se falhar, analise quais unidades ficaram para trás no dano, melhore-as e tente a rodada novamente.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Dica de Sucesso">
+Alcançar um novo checkpoint garante recompensas de progressão permanentes. Reinvista esses pagamentos de marcos diretamente em mais rolagens para caçar Míticos e mutações.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Hierarquia de Mutações e Regras de Fusão">
+
+As mutações adicionam multiplicadores massivos às suas unidades. Ao fundir, sempre use a unidade com a mutação superior como base. A tabela abaixo descreve as mutações confirmadas no jogo e como você deve lidar com elas durante as melhorias.
+
+| Mutação | Tipo de Visual / Estatística | Função Recomendada | Estratégia de Fusão |
+|---|---|---|---|
+| **Nen** | Mutação de Estatística Especial | DPS Principal para Ondas Altas | Bloqueie imediatamente; funda apenas cópias Nen correspondentes. |
+| **Titan** | Mutação de Estatística Especial | Atacante Pesado de Linha de Frente | Mantenha separado; construa uma linha de melhoria dedicada. |
+| **Diamond** | Visual / Estatística Premium | Carregador de Meio a Fim de Jogo | Funda apenas com variantes Diamond correspondentes. |
+| **Gold** | Visual / Estatística Aprimorada | Progressão de Meio de Jogo | Use para impulsionar a escalação ativa; funda cópias padrão nela. |
+| **Nenhuma** | Unidade Padrão | Preenchimento Inicial / Comida de XP | Alimente em variantes mutacionadas para aumentar os níveis base. |
+
+<Callout type="info" title="Informação de Otimização">
+Se você tiver o game pass de Mutação 2x ativo, priorize salvar unidades de raridade alta com as etiquetas Nen ou Titan, pois elas formarão a base da sua equipe para o fim do jogo.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Ondas Infinitas e Recompensas de Checkpoint">
+
+A progressão de ondas é o teste definitivo da sinergia da sua equipe. À medida que você limpa os marcos, os inimigos ganham barras de vida massivas e velocidades de movimento mais rápidas. Você deve ajustar a composição da sua equipe para combater essas ameaças crescentes.
+
+| Intervalo de Ondas | Dificuldade | Requisito de Equipe Principal | Prioridade de Melhoria | Estratégia de Recompensa |
+|---|---|---|---|---|
+| **Ondas 1-10** | Fácil | Qualquer escalação ativa preenchida | Nivelamento do DPS principal | Gaste os ganhos em rolagens básicas |
+| **Ondas 11-25** | Médio | Equilíbrio de alvo único e AOE | Fusão de duplicatas ativas | Foque em nivelar a equipe principal |
+| **Ondas 26-40** | Difícil | Lendários / Mutantes nivelados | Desenvolver linhas Diamond/Nen | Reinvista na caça por mutações |
+| **Ondas 41+** | Extremo | Míticos com Mutações S-Tier | Maximizar unidades de nível superior | Economize pagamentos para melhorias em massa |
+
+<Checklist
+  id="wave-prep-checklist"
+  title="Lista de Verificação Pré-Rodada:"
+  items={[
+    "Certifique-se de que cada slot ativo da equipe esteja preenchido com suas unidades de maior DPS.",
+    "Verifique se você tem pelo menos uma unidade AOE de ampla cobertura equipada.",
+    "Bloqueie todas as novas mutações de Nen, Titan e Diamond obtidas.",
+    "Funda todas as duplicatas padrão em sua equipe ativa principal.",
+    "Resgate todas as recompensas de checkpoint pendentes no menu principal."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Trophy} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Qual é a maneira mais eficiente de usar o guia de Roll Anime to Fight para iniciantes?",
+    answer: "Os iniciantes devem se concentrar em preencher todos os slots ativos da equipe primeiro. Não funda unidades duplicadas até ter uma escalação completa de lutadores ativos. Assim que sua equipe estiver cheia, funda duplicatas padrão em suas unidades de maior DPS e avance nas ondas para desbloquear recompensas de checkpoint."
+  },
+  {
+    question: "Devo manter uma unidade de raridade menor com mutação em vez de uma Lendária limpa?",
+    answer: "Sim, em muitos casos. Mutações de alto nível como Nen ou Titan fornecem aumentos massivos de estatísticas que podem permitir que uma unidade de raridade menor supere uma unidade Lendária padrão e não fundida. Sempre compare o DPS real e os tempos de recarga."
+  },
+  {
+    question: "Como funciona o sistema de fusão em Roll Anime to Fight?",
+    answer: "O sistema de fusão permite combinar unidades duplicadas idênticas para aumentar o nível da unidade base e o poder geral de combate. Sempre selecione sua melhor unidade mutacionada como a base da fusão para preservar a mutação."
+  },
+  {
+    question: "Por que estou falhando em progredir além dos checkpoints de ondas mais altas?",
+    answer: "Isso geralmente é causado por uma equipe desequilibrada. Certifique-se de ter uma mistura de causadores de dano rápido de alvo único para chefes e unidades AOE de área ampla para grupos de inimigos comuns. Se o seu equilíbrio estiver correto, você simplesmente precisa rolar mais duplicatas para fundir e nivelar sua equipe principal."
+  }
+]} />
+
+</Section>

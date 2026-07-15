@@ -1,0 +1,173 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Roll Anime to Fight Luchadores Limitados: Guía de Gacha y Mutaciones",
+  description: "Aprende cómo rodar anime para luchar con luchadores limitados, gestionar mutaciones raras, fusionar unidades duplicadas y optimizar tu equipo para superar puntos de control de oleadas altas.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/161126/fff?text=Limited+Fighters+Guide",
+  date: "2026-07-15",
+  author: "Equipo de Wiki de Roll Anime to Fight",
+  keywords: "gacha, mutaciones, nen, titán, fusionar, guía de combate"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Mecánicas de Gacha**: Rueda anime para luchar con luchadores limitados y unidades de alta rareza para construir tu elenco de defensa principal.
+- **Sistema de Mutaciones**: Protege mutaciones raras como Nen y Titán, que pueden superar a las unidades estándar de mayor rareza.
+- **Estrategia de Fusión**: Concentra los recursos duplicados en un solo carry principal en lugar de repartir las mejoras entre múltiples unidades.
+- **Progresión de Oleadas**: Alcanza puntos de control más altos para asegurar pagos masivos de recursos y desbloquear bonificaciones de rodaje premium.
+</Callout>
+
+<Section icon={Map} title="Roll Anime to Fight Luchadores Limitados: Tasas de Gacha y Rarezas">
+
+Para tener éxito en la experiencia de Roblox [¡Rueda Anime para luchar!](https://www.roblox.com/games/107653945083776/Roll-Anime-to-Fight), debes dominar el sistema de gacha. Rodar suministra los luchadores utilizados para construir y mejorar tu equipo de combate. Mientras que los luchadores Míticos y Legendarios representan extracciones de gran valor, las versiones mutadas como Oro, Diamante, Nen y Titán deben preservarse como líneas de mejora separadas.
+
+**Puntos Destacados del Vídeo:**
+- **Construcción del Elenco**: Cómo rodar anime para luchar con luchadores limitados y llenar tus posiciones de equipo activo desde el principio.
+- **Caza de Mutaciones**: Identificación de las mejores mutaciones visuales y de mejora de estadísticas.
+- **Bucle de Progresión**: Transición desde las oleadas iniciales hasta el farmeo estable de puntos de control.
+
+<YouTubeEmbed videoId="EB0sQkBp2s0" title="สุ่มอนิเมะมาป้องกันบ้านใน Roblox : Roll Anime to Fight!" />
+
+Comprender las estadísticas base de tus unidades extraídas es fundamental. Compara la tarjeta completa del luchador en lugar de elegir unidades solo por el color de su rareza.
+
+| Categoría de Rareza | Enfoque de Estadísticas | Prioridad de Conservación | Uso Táctico Recomendado |
+|---|---|---|---|
+| **Mítico** | Nivel, DPS, RNG, CD | **Máxima** | Equipar inmediatamente; preservar duplicados para fusionar. |
+| **Legendario** | Nivel, DPS, RNG, CD | **Alta** | Elenco principal de mitad de juego; fusionar duplicados coincidentes. |
+| **Luchador Mutado** | Etiquetas de Mutación Especial | **Alta** | Desarrollar en una rama de mejora separada. |
+| **Duplicado Estándar** | Perfil Base Idéntico | **Material de Fusión** | Alimentar a la versión activa principal de ese luchador. |
+
+<Callout type="tip" title="Consejo Pro: Estadísticas sobre Color">
+Observa siempre el DPS (daño por segundo) real y el CD (enfriamiento) en lugar de solo el color de la rareza. Un luchador Legendario bien fusionado o una unidad de menor rareza con una mutación de combate poderosa puede superar fácilmente a una unidad Mítica de nivel base.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Jerarquía de Mutaciones y Prioridades de Conservación">
+
+Las mutaciones crean versiones especiales de las unidades obtenidas y pueden mejorar enormemente el valor de un luchador fuerte. Una mutación especial en una unidad Mítica o Legendaria fuerte normalmente debe ser protegida, equipada y mejorada antes que las copias ordinarias.
+
+Clasificamos las mutaciones activas actualmente a continuación según su viabilidad en combate y rendimiento en la progresión de oleadas altas.
+
+| Nivel de Mutación | Nombre de Mutación | Tipo | Mejor Para | Regla de Conservación |
+|---|---|---|---|---|
+| **Nivel S** | **Nen** | Especial | Progresión de oleadas altas | Bloquear unidad; fusionar solo con copias Nen coincidentes. |
+| **Nivel S** | **Titán** | Especial | Producción de daño bruto | Proteger como una rama de mejora dedicada de alto valor. |
+| **Nivel A** | **Diamante** | Visual Premium | Aumentos de DPS equilibrados | Mantener separado de copias normales; fusionar dentro de la línea Diamante. |
+| **Nivel B** | **Oro** | Visual Mejorado | Progresión de mitad de juego | Usar para mejorar el elenco activo; mejor que las unidades base estándar. |
+| **Nivel C** | **Ninguna** | Estándar | Material de fusión | Usar copias normales adicionales para subir de nivel a tus unidades mutadas. |
+
+<CardGrid cols={2}>
+  <Card title="Mutaciones Nen y Titán">
+    Estas son las principales mutaciones de combate en el juego. Ofrecen multiplicadores de estadísticas masivos que escalan excepcionalmente bien en las oleadas del juego tardío.
+  </Card>
+  <Card title="Mutaciones Diamante y Oro">
+    Principalmente mejoras visuales que también ofrecen aumentos de estadísticas estables y fiables. Excelentes para superar puntos de control de nivel medio.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Advertencia de Protección de Mutaciones">
+Bloquea siempre a tus luchadores mutados inmediatamente después de rodar. Es increíblemente fácil consumir accidentalmente una unidad rara Nen o Titán como material de fusión estándar al subir de nivel a un luchador base.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guía Paso a Paso para Fusionar y Subir de Nivel">
+
+El sistema de fusión convierte los rodajes repetidos en poder permanente para el equipo. Selecciona primero tu mejor versión de un luchador, preserva las mutaciones valiosas y dirige los duplicados coincidentes hacia la copia que permanecerá en tu equipo activo.
+
+<Steps>
+  <Step num="1" title="Elige la Copia Principal">
+    Compara la rareza, mutación, DPS, rango y enfriamiento antes de seleccionar al luchador que recibirá las futuras fusiones. Prioriza siempre las variantes mutadas.
+  </Step>
+  <Step num="2" title="Separa las Ramas de Mutación">
+    Mantén las versiones normales, Oro, Diamante, Nen y Titán organizadas como variantes de luchadores separadas. No consumas una mutación valiosa para mejorar una copia normal más débil.
+  </Step>
+  <Step num="3" title="Colecciona Duplicados Coincidentes">
+    Continúa rodando y guarda copias adicionales de los luchadores que ya usa tu equipo principal. Los duplicados de equipo son más útiles que los luchadores de bajo impacto no utilizados.
+  </Step>
+  <Step num="4" title="Fusiona para Subir el Nivel">
+    Usa la interfaz de fusión para combinar luchadores coincidentes y aumentar el nivel mostrado del luchador seleccionado y su fuerza de combate general.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Fórmula de Eficiencia">
+Concentra tus fusiones en uno o dos atacantes principales primero. Una sola unidad carry de nivel 10 es significativamente más efectiva para limpiar oleadas que cinco unidades de nivel 2.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Mejores Alineaciones de Equipo para la Progresión de Oleadas">
+
+Construir un equipo equilibrado no siempre consiste en equipar la rareza visible más alta. Los equipos fuertes combinan luchadores mejorados, daño rápido o consistente, una cobertura de enemigos más amplia y mutaciones útiles para que las diferentes condiciones de las oleadas se manejen de manera eficiente.
+
+| Configuración de Equipo | Etapa Objetivo | Roles del Elenco Principal | Enfoque Estratégico |
+|---|---|---|---|
+| **Inicio de Juego Temprano** | Primeros rodajes y oleadas | 1 DPS alto, 1 Atacante rápido, 1 Cobertura amplia | Llenar todos los espacios antes de fusionar; reemplazar unidades débiles gradualmente. |
+| **Equilibrado de Mitad de Juego** | Farmeo de puntos de control | 1 Carry fuerte, 2 Atacantes amplios, 1 Unidad mutada | Equilibrar DPS a un solo objetivo con control de masas; invertir en fusiones. |
+| **Daño de Oleada Alta** | Puntos de control finales | 2 DPS sostenido, 1 Atacante rápido, Núcleo mutado | Eliminar unidades de bajo rendimiento; concentrarse totalmente en el tiempo de actividad de oleada alta. |
+
+<Callout type="info" title="Sinergia Táctica">
+Asegúrate de tener una mezcla de unidades de ataque rápido para limpiar enemigos con poca salud y unidades lentas que golpeen fuerte para destrozar objetivos con mucha salud y jefes.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Puntos de Control de Oleadas y Recompensas de Progresión">
+
+La progresión de oleadas es la prueba principal de la fuerza del equipo. Mejora la parte más débil del elenco después de cada intento fallido, alcanza el siguiente punto de control, reclama su recompensa y reinvierte esos recursos en rodar y fusionar.
+
+| Etapa de Progresión | Objetivo Principal | Requisito de Verificación de Equipo | Prioridad de Mejora | Reinversión de Recompensas |
+|---|---|---|---|---|
+| **Oleadas Iniciales** | Llenar espacios de equipo activo | Cada espacio ocupado por una unidad funcional | Reemplazar unidades iniciales con unidades rodadas | Gastar ganancias en rodajes adicionales |
+| **Primera Carrera Estable** | Limpiar múltiples oleadas | Daño repartido entre varias unidades fiables | Fusionar unidades de equipo duplicadas | Construir un luchador nivelado a la vez |
+| **Empuje de Punto de Control** | Asegurar el siguiente hito | Comparar DPS, rango y CD después del fallo | Mejorar al luchador con menor rendimiento | Reinvertir recompensas en rodajes de mutación |
+| **Empuje de Oleada Alta** | Mantener el escalado de daño | El elenco debe contener unidades niveladas y mutadas | Desarrollar ramas Diamante, Nen y Titán | Ahorrar pagos para grandes sesiones de rodaje |
+
+<Checklist
+  id="wave-preparation-checklist"
+  title="Lista de Verificación Previa a la Carrera:"
+  items={[
+    "Verifica que cada posición de equipo disponible esté ocupada.",
+    "Asegúrate de que tus principales causantes de daño hayan sido fusionados a su nivel máximo actual.",
+    "Comprueba dos veces que tus mejores unidades mutadas (Nen/Titán) estén equipadas.",
+    "Bloquea cualquier unidad rara recién obtenida para evitar fusiones accidentales.",
+    "Revisa el equilibrio de tu equipo para asegurar que tienes unidades de objetivo único y de ataque amplio."
+  ]}
+/>
+
+<Callout type="tip" title="Farmeo de Puntos de Control">
+Si te chocas contra un muro, no sigas reintentando la misma oleada. Sal, farmea tu punto de control completado más alto para obtener recompensas, rueda nuevas unidades, fusiona duplicados y regresa cuando el DPS total de tu equipo haya aumentado.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo ruedo anime para luchar con luchadores limitados?",
+    answer: "Puedes obtener luchadores limitados y raros utilizando el sistema de rodaje del juego. Ahorra tu moneda, activa potenciadores de suerte si están disponibles y concéntrate en rodar durante eventos especiales o usa pases de juego de mutación para aumentar tus posibilidades de extraer unidades de primer nivel."
+  },
+  {
+    question: "¿Debería fusionar mis unidades mutadas en unidades estándar?",
+    answer: "No. Las unidades mutadas como Nen, Titán y Diamante deben mantenerse separadas y mejorarse a lo largo de sus propias ramas dedicadas. Fusionar una unidad mutada en una unidad estándar desperdiciará los multiplicadores de estadísticas únicos de la mutación."
+  },
+  {
+    question: "¿Cuál es la forma más rápida de subir de nivel a mis luchadores?",
+    answer: "La forma más rápida de subir de nivel es fusionando copias duplicadas del mismo luchador en tu unidad principal. Esto aumenta el nivel de la unidad y potencia significativamente sus estadísticas de DPS, rango y enfriamiento."
+  },
+  {
+    question: "¿Por qué no logro superar los puntos de control de oleadas más altas?",
+    answer: "Fallar en oleadas altas generalmente significa que tu equipo carece de tipos de daño equilibrados o que tus unidades necesitan ser fusionadas más. Asegúrate de tener una mezcla de alto DPS a un solo objetivo para jefes y atacantes de amplia cobertura para las turbas de enemigos."
+  }
+]} />
+
+</Section>

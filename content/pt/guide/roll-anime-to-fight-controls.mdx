@@ -1,0 +1,175 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Controles de Roll Anime to Fight: Guia Completo de Configuração e Dicas",
+  description: "Domine os controles de Roll Anime to Fight, botões da interface, teclas de atalho e mecânicas principais de jogabilidade para otimizar sua equipe, fundir unidades e sobreviver a contagens de ondas altas.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/161126/fff?text=Controls+and+Setup+Guide",
+  date: "2026-07-15",
+  author: "Equipe da Wiki de Roll Anime to Fight"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Ciclo Principal**: Role lutadores de anime, gerencie slots ativos, funda unidades duplicadas e limpe ondas infinitas.
+- **Foco nos Controles**: Domine os menus do jogo, slots da equipe e interfaces de fusão para reagir rapidamente entre as ondas.
+- **Mecânica Chave**: Lutadores duplicados podem ser fundidos para elevar níveis e estatísticas de combate em vez de serem descartados.
+- **Valor das Mutações**: Traços raros como Nen ou Titan devem ser bloqueados e priorizados sobre atualizações visuais básicas.
+- **Objetivo de Progressão**: Ultrapasse os checkpoints para garantir maiores rendimentos de recursos e parar de repetir ondas iniciais.
+</Callout>
+
+<Section icon={Map} title="Dominando os Controles e a Interface de Roll Anime to Fight">
+
+Navegar na arena de batalha e gerenciar seu elenco com eficiência requer uma compreensão completa da interface. Este simulador do Roblox, desenvolvido por Another Slop (Place ID: 107653945083776), baseia-se em uma mistura de cliques padrão do mouse, alternâncias de menu e mecânicas de posicionamento. Saber onde clicar e como usar teclas de atalho nos seus menus economiza segundos valiosos entre o surgimento das ondas.
+
+**Destaques do Vídeo:**
+- Tour visual do lobby principal e círculos de invocação.
+- Como equipar, desequipar e bloquear suas unidades.
+- Demonstração em tempo real da fusão de unidades duplicadas.
+
+<YouTubeEmbed videoId="EB0sQkBp2s0" title="สุ่มอนิเมะมาป้องกันบ้านใน Roblox : Roll Anime to Fight!" />
+
+A tabela abaixo descreve os principais elementos interativos na sua tela e suas funções exatas.
+
+| Elemento de Controle | Localização na Tela | Função Principal | Tipo de Interação |
+|---|---|---|---|
+| **Botão de Rolar** | Centro Inferior | Gaste moedas para invocar novos lutadores de anime | Clique / Toque |
+| **Menu de Equipe** | Barra Lateral Esquerda | Equipar, desequipar, bloquear e ver estatísticas do lutador | Clique de Alternância |
+| **Interface de Fusão** | Barra Lateral Esquerda | Combine unidades duplicadas para aumentar os níveis | Clique de Alternância |
+| **Menu de Códigos** | Barra Lateral Esquerda | Insira códigos promocionais para recompensas | Entrada de Texto |
+| **Início da Onda** | Centro Direito | Ative a próxima onda de inimigos | Proximidade / Clique |
+
+<Callout type="tip" title="Dica Profissional">
+Sempre bloqueie seus lutadores Míticos, Lendários e mutantes assim que os rolar. A alternância de bloqueio no Menu de Equipe evita que você use acidentalmente unidades valiosas como material de fusão.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Seleção de Lutadores e Mecânicas de Combate">
+
+Seu sucesso no combate em **controles de roll anime to fight** depende muito de como você avalia e implanta sua equipe. A raridade é apenas uma parte da equação; você também deve analisar o dano por segundo (DPS), o alcance de ataque (RNG) e o tempo de recarga de ataque (CD) para construir uma formação equilibrada.
+
+<CardGrid cols={3}>
+  <Card title="Foco em Dano">
+    - **Alta prioridade de DPS**
+    - Alveja unidades de chefes individuais
+    - Ideal para ondas de checkpoint
+  </Card>
+  <Card title="Foco em Cobertura">
+    - **Ampla área de efeito (AoE)**
+    - Limpa enxames de inimigos lotados
+    - Mantém a pressão da trilha baixa
+  </Card>
+  <Card title="Foco em Velocidade">
+    - **Baixo tempo de recarga de ataque (CD)**
+    - Alta atividade em alvos rápidos
+    - Evita vazamentos perto dos portais
+  </Card>
+</CardGrid>
+
+Use esta tabela de comparação rápida para entender como diferentes estatísticas impactam seu desempenho de combate durante as ondas ativas.
+
+| Tipo de Estatística | Nível de Prioridade | Benefício de Combate | Limite Recomendado |
+|---|---|---|---|
+| **DPS** | Crítico | Determina a saída de dano total | Maximize em matadores de chefes |
+| **Alcance (RNG)** | Alto | Permite que as unidades ataquem com segurança | Moderado a alto para AoE |
+| **Recarga (CD)** | Médio | Mantém as animações de ataque rápidas e fluidas | Abaixo de 2,0s para unidades de velocidade |
+
+<Callout type="warning" title="Aviso">
+Não preencha sua equipe ativa apenas com unidades de ataque lento e alto dano. Uma onda de inimigos rápidos e com pouca vida pode facilmente passar pela sua defesa se suas unidades tiverem tempos de recarga de ataque longos.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Rota de Progressão da Equipe Passo a Passo">
+
+Para avançar suavemente desde o seu primeiro roll até os checkpoints de ondas altas, siga este caminho estruturado de configuração e upgrade.
+
+<Steps>
+  <Step num="1" title="Preencha seu Elenco Ativo">
+    Role seu primeiro conjunto de lutadores e equipe-os imediatamente. Certifique-se de que todos os slots de equipe disponíveis estejam preenchidos antes de começar a fundir ou filtrar unidades.
+  </Step>
+  <Step num="2" title="Identifique Ramos de Mutação">
+    Verifique se as unidades roladas possuem etiquetas de mutação especiais, como Gold, Diamond, Nen ou Titan. Mantenha essas variantes mutantes separadas das unidades padrão.
+  </Step>
+  <Step num="3" title="Funda Duplicatas Padrão">
+    Abra o Menu de Fusão, selecione seu lutador ativo principal e alimente-o com duplicatas padrão idênticas para aumentar seu nível e dano bruto.
+  </Step>
+  <Step num="4" title="Avance para o Próximo Checkpoint">
+    Entre nas ondas infinitas e lute até atingir um novo marco de checkpoint. Reinvista suas recompensas de marco de volta no sistema de rolagem.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Dica de Sucesso">
+Uma unidade Lendária totalmente fundida ou uma Épica mutante de alto valor pode facilmente superar uma unidade Mítica base sem fusão. Sempre compare as estatísticas de combate ativas em vez de confiar apenas nas cores de raridade.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Prioridade de Mutação e Gerenciamento de Elenco">
+
+Mutações são variantes raras que alteram significativamente as estatísticas base e o design visual de um lutador. Entender quais mutações manter e quais fundir é vital para a progressão no final do jogo.
+
+| Mutação | Nível | Prioridade de Manutenção | Melhor Função de Combate | Estratégia de Upgrade |
+|---|---|---|---|---|
+| **Nen** | S | Altíssima | DPS Principal / Matador de Chefes | Construa uma linha de fusão dedicada para Nen |
+| **Titan** | S | Altíssima | Progressão de Ondas Altas | Salve cópias duplicadas de Titan |
+| **Diamond** | A | Alta | Impulsionador de Dano | Funda apenas dentro da linha Diamond |
+| **Gold** | B | Moderada | Progressão de Meio de Jogo | Use como carregador principal de meio de jogo |
+| **Nenhuma** | C | Baixa | Material de Fusão | Alimente unidades mutantes ativas |
+
+<Checklist
+  id="roster-checklist"
+  title="Lista de Verificação do Elenco Pré-Onda:"
+  items={[
+    "Verifique se cada slot de equipe ativo está ocupado por uma unidade com nível",
+    "Certifique-se de que sua equipe tenha uma mistura de DPS de alvo único e AoE de amplo alcance",
+    "Bloqueie todos os lutadores mutantes Nen e Titan recém-rolados",
+    "Funda unidades duplicadas para maximizar os níveis de combate ativos",
+    "Verifique se nenhuma unidade básica de baixo desempenho está ocupando slots ativos"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Trophy} title="Checkpoints de Ondas Infinitas e Recompensas">
+
+O ciclo de progressão recompensa os jogadores que consistentemente desafiam seus limites. Checkpoints servem como redes de segurança permanentes, permitindo que você ignore as ondas iniciais e farme recursos de alto nível diretamente.
+
+| Nome do Estágio | Meta de Checkpoint | Força Recomendada da Equipe | Uso da Recompensa de Marco |
+|---|---|---|---|
+| **Ondas Iniciais** | Onda 10 | Equipe base completa | Role para duplicatas iniciais |
+| **Primeira Corrida Estável** | Onda 25 | Unidades padrão nível 5+ | Funda membros da equipe ativa |
+| **Avanço de Checkpoint** | Onda 50 | Lendários com nível | Foque em mutações raras |
+| **Progressão de Ondas Altas** | Onda 100+ | Míticos Mutantes (Nen/Titan) | Maximize estatísticas de alto nível |
+
+<Callout type="info" title="Mecânica de Checkpoint">
+Alcançar um marco desbloqueia bônus permanentes e aumenta sua geração passiva de moeda. Se você encontrar uma barreira, não continue tentando imediatamente; gaste seus ganhos atuais em rolagens e fusões primeiro.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Como acesso os controles de roll anime to fight em dispositivos móveis?",
+    answer: "A interface móvel usa botões de tela sensível ao toque localizados na esquerda e na parte inferior da tela. Toque nos ícones da barra lateral para abrir os menus de Equipe e Fusão, e toque no botão central para rolar."
+  },
+  {
+    question: "Posso desfazer uma fusão se selecionar acidentalmente a unidade errada?",
+    answer: "Não, as fusões são permanentes e não podem ser desfeitas. Para evitar fusões acidentais, use sempre o recurso 'Bloquear' (Lock) no seu Menu de Equipe em todas as unidades de alta raridade e mutantes."
+  },
+  {
+    question: "Qual é a melhor mutação para focar em contagens de ondas altas?",
+    answer: "Nen e Titan são as mutações de nível superior. Elas fornecem multiplicadores de combate massivos que permanecem altamente eficazes mesmo quando a vida do inimigo aumenta drasticamente em ondas posteriores."
+  },
+  {
+    question: "Onde posso encontrar códigos ativos para Roll Anime to Fight?",
+    answer: "Os códigos ativos são postados oficialmente na descrição do jogo no Roblox e na página da Comunidade Another Slop no Roblox. Atualmente, não há códigos ativos publicados até 15 de julho de 2026."
+  }
+]} />
+
+</Section>

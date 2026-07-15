@@ -10,7 +10,178 @@
       "twitterDescription": "Roll Anime to Fight codes, unit tiers, mutations, merge tips, and wave strategies for the Roblox anime defense game."
     }
   },
-  "nav": {},
+  "nav": {
+    "codes": "Codes",
+    "guide": "Guide",
+    "tiers": "Tier List",
+    "fighters": "Fighters",
+    "rolling": "Rolling",
+    "merging": "Merging",
+    "teams": "Teams",
+    "updates": "Updates"
+  },
+  "pages": {
+    "codes": {
+      "title": "Roll Anime to Fight Codes",
+      "description": "Every active Roll Anime to Fight code in one place, with redemption steps and the rewards each code grants for free rolls, gems, and boosts.",
+      "metaTitle": "Roll Anime to Fight Codes (July 2026) - Free Rolls & Gems",
+      "metaDescription": "Redeem the latest Roll Anime to Fight codes for free rolls, gems, and boosts. Updated active codes, redemption steps, and the expired list.",
+      "categoryLabel": "REDEEM CODES",
+      "whatIs": "What Are Roll Anime to Fight Codes?",
+      "whatIsDescription": "Codes are promotional strings the developer releases through the official Roblox experience and the Another Slop community. Entering a code in the in-game Codes menu grants free rewards such as extra rolls, gems, and progression boosts.",
+      "why": "Why Use Our Codes List?",
+      "whySteps": {
+        "step1Title": "Always Current",
+        "step1Description": "We monitor the official Roblox page and community channel so every listed code reflects its real active or expired status.",
+        "step2Title": "Clear Redemption Steps",
+        "step2Description": "Follow the exact menu path and entry format to avoid typos, extra spaces, or capitalization errors that block redemption.",
+        "step3Title": "Reward Breakdown",
+        "step3Description": "See what each code grants before redeeming, so you know which free rolls, gems, or boosts are heading to your account."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Codes"
+    },
+    "guide": {
+      "title": "Roll Anime to Fight Guides",
+      "description": "Step-by-step Roll Anime to Fight guides covering your first rolls, controls, wave survival, checkpoints, and boss fights from beginner to advanced.",
+      "metaTitle": "Roll Anime to Fight Guide - Beginner Tips, Controls & Waves",
+      "metaDescription": "Master Roll Anime to Fight with beginner guides, controls, wave and checkpoint strategies, and boss fight tips for faster progression on Roblox.",
+      "categoryLabel": "GUIDES",
+      "whatIs": "What Is a Roll Anime to Fight Guide?",
+      "whatIsDescription": "Guides walk you through the core loop — rolling fighters, equipping a team, surviving waves, merging duplicates, and clearing checkpoints — with practical steps you can follow during your first session.",
+      "why": "Why Read These Guides?",
+      "whySteps": {
+        "step1Title": "Fast First 30 Minutes",
+        "step1Description": "Get from your first roll to a working team without wasting currency on the wrong fighters.",
+        "step2Title": "Controls and Mechanics",
+        "step2Description": "Learn movement, placement, and combat controls so you react faster when waves get crowded.",
+        "step3Title": "Wave and Boss Strategy",
+        "step3Description": "Approach checkpoints and boss fights with the right team composition instead of guessing your way through."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Guides"
+    },
+    "tiers": {
+      "title": "Roll Anime to Fight Tier List",
+      "description": "Roll Anime to Fight tier list ranking every fighter by damage, attack speed, coverage, and value across early, mid, and high-wave progression.",
+      "metaTitle": "Roll Anime to Fight Tier List - Best Fighters Ranked",
+      "metaDescription": "See the best Roll Anime to Fight fighters ranked in a full tier list by damage, attack speed, and coverage for early, mid, and late game waves.",
+      "categoryLabel": "TIER LIST",
+      "whatIs": "What Is the Roll Anime to Fight Tier List?",
+      "whatIsDescription": "The tier list compares fighters across S, A, B, and C ranks based on sustained damage, attack speed, enemy coverage, and how well they hold up as enemy health scales at higher checkpoints.",
+      "why": "Why Trust This Tier List?",
+      "whySteps": {
+        "step1Title": "Performance Over Rarity",
+        "step1Description": "Fighters are judged by real wave damage and efficiency, not by rarity color alone.",
+        "step2Title": "Stage-by-Stage Rankings",
+        "step2Description": "Separate rankings for early, mid, and late game show which fighters peak at each progression stage.",
+        "step3Title": "Clear Upgrade Targets",
+        "step3Description": "Use the ranks to decide which duplicates to merge and which fighters deserve your resources first."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Tier List Guides"
+    },
+    "fighters": {
+      "title": "Roll Anime to Fight Fighters",
+      "description": "A complete Roll Anime to Fight fighter roster covering stats, rarities, secret and limited units, and how every fighter is obtained.",
+      "metaTitle": "Roll Anime to Fight Fighters - Stats, Rarities & Secret Units",
+      "metaDescription": "Browse every Roll Anime to Fight fighter with stats, rarities, secret and limited units, and acquisition methods in one searchable roster.",
+      "categoryLabel": "FIGHTERS",
+      "whatIs": "What Are Roll Anime to Fight Fighters?",
+      "whatIsDescription": "Fighters are the anime units you roll, equip, and send into battle. Each one has its own rarity, damage, range, cooldown, and acquisition method, and the roster spans standard, secret, and limited units.",
+      "why": "Why Browse the Fighter Roster?",
+      "whySteps": {
+        "step1Title": "Full Stat Reference",
+        "step1Description": "Check damage, DPS, range, and cooldown for any fighter before committing resources to it.",
+        "step2Title": "Rarities Explained",
+        "step2Description": "Understand how rarity tiers affect value and which units are worth keeping or merging.",
+        "step3Title": "Secret and Limited Units",
+        "step3Description": "Track hard-to-find secret and limited fighters so you know what to chase and when they appear."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Fighter Guides"
+    },
+    "rolling": {
+      "title": "Roll Anime to Fight Rolling Guide",
+      "description": "Roll Anime to Fight rolling guide covering roll rates, luck, rare fighter odds, rolling strategy, and how to get more rolls efficiently.",
+      "metaTitle": "Roll Anime to Fight Rolling Guide - Rates, Luck & Odds",
+      "metaDescription": "Learn Roll Anime to Fight roll rates, luck bonuses, rare fighter odds, and rolling strategy to pull stronger units and get more rolls faster.",
+      "categoryLabel": "ROLLING",
+      "whatIs": "What Is Rolling in Roll Anime to Fight?",
+      "whatIsDescription": "Rolling is how you obtain new fighters. Each roll follows set rates and is shaped by luck bonuses, so understanding probabilities and strategy helps you pull rare and mutated units more reliably.",
+      "why": "Why Learn Rolling Strategy?",
+      "whySteps": {
+        "step1Title": "Know the Roll Rates",
+        "step1Description": "See the real probability behind each rarity so you can plan your rolls instead of relying on luck.",
+        "step2Title": "Stack Luck Bonuses",
+        "step2Description": "Apply luck boosts and the right timing to raise your odds of pulling rare and mutated fighters.",
+        "step3Title": "Roll Efficiently",
+        "step3Description": "Follow proven rolling strategy and methods to earn more rolls and avoid wasting currency."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Rolling Guides"
+    },
+    "merging": {
+      "title": "Roll Anime to Fight Merging Guide",
+      "description": "Roll Anime to Fight merging guide covering duplicate fusion, leveling, max fighter level, merge priorities, and resource efficiency.",
+      "metaTitle": "Roll Anime to Fight Merge Guide - Leveling & Priorities",
+      "metaDescription": "Master Roll Anime to Fight merging: fuse duplicates, raise levels, reach max fighter level, set merge priorities, and spend resources efficiently.",
+      "categoryLabel": "MERGING",
+      "whatIs": "What Is Merging in Roll Anime to Fight?",
+      "whatIsDescription": "Merging combines duplicate fighters to raise a unit's level and combat strength. It is the main way to turn repeated rolls into permanent team power, so choosing the right copy and merge order matters.",
+      "why": "Why Follow a Merge Strategy?",
+      "whySteps": {
+        "step1Title": "Level Up Faster",
+        "step1Description": "Feed matching duplicates into your best copy to push fighters toward max level without wasted merges.",
+        "step2Title": "Smart Merge Priorities",
+        "step2Description": "Decide which fighters deserve merges first and which low-rarity units are not worth the investment.",
+        "step3Title": "Handle Duplicates Right",
+        "step3Description": "Keep valuable mutations on separate branches and only merge duplicates that truly improve your active team."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Merging Guides"
+    },
+    "teams": {
+      "title": "Roll Anime to Fight Best Teams",
+      "description": "Roll Anime to Fight team building guides covering the best early, mid, wave, and mutation-focused teams plus how to equip more fighters.",
+      "metaTitle": "Roll Anime to Fight Best Teams - Builds for Every Stage",
+      "metaDescription": "Build the best Roll Anime to Fight teams for early game, wave survival, and mutations, with team building tips and how to equip more fighters.",
+      "categoryLabel": "TEAMS",
+      "whatIs": "What Makes a Strong Roll Anime to Fight Team?",
+      "whatIsDescription": "A strong team balances focused damage, fast attackers, wide enemy coverage, and useful mutations. The right composition changes as you progress from early checkpoints to high-wave runs.",
+      "why": "Why Use These Team Builds?",
+      "whySteps": {
+        "step1Title": "Builds for Every Stage",
+        "step1Description": "Follow ready-made early, mid, and high-wave teams tuned for where you are in progression.",
+        "step2Title": "Smarter Team Building",
+        "step2Description": "Learn which roles to fill and how to mix focused and wide damage for consistent wave clears.",
+        "step3Title": "Equip More Fighters",
+        "step3Description": "Find out how to expand your active lineup so more of your strongest units can fight at once."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Team Guides"
+    },
+    "updates": {
+      "title": "Roll Anime to Fight Updates",
+      "description": "Roll Anime to Fight updates covering the latest patch, changelog, new units, balance changes, and where to follow the community.",
+      "metaTitle": "Roll Anime to Fight Updates - Latest Patch & Changelog",
+      "metaDescription": "Track Roll Anime to Fight updates including the latest patch, full changelog, new units, balance changes, and official community channels.",
+      "categoryLabel": "UPDATES",
+      "whatIs": "What Are Roll Anime to Fight Updates?",
+      "whatIsDescription": "Updates track version changes, new fighters, balance adjustments, events, and system reworks. Staying current helps you adapt your team and rolls to whatever the latest patch changes.",
+      "why": "Why Follow Roll Anime to Fight Updates?",
+      "whySteps": {
+        "step1Title": "Latest Patch First",
+        "step1Description": "See what the newest update changed the moment it goes live, from new units to balance tweaks.",
+        "step2Title": "Full Changelog",
+        "step2Description": "Review past updates in order so you understand how the game and its fighters have evolved.",
+        "step3Title": "Stay Connected",
+        "step3Description": "Find the right Reddit and Discord communities to catch announcements and discuss updates with other players."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Update Guides"
+    }
+  },
   "common": {
     "home": "Home",
     "more": "More",

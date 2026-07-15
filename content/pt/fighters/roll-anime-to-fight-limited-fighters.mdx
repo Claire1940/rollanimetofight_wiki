@@ -1,0 +1,173 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guia de Gacha e Mutações de Lutadores Limitados em Roll Anime to Fight",
+  description: "Aprenda como sortear lutadores limitados, gerenciar mutações raras, fundir unidades duplicadas e otimizar sua equipe para superar checkpoints de ondas altas.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/161126/fff?text=Limited+Fighters+Guide",
+  date: "2026-07-15",
+  author: "Equipe da Wiki de Roll Anime to Fight",
+  keywords: "roll anime to fight, gacha, mutações, lutadores limitados, roblox, guia de jogo"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Mecânicas de Gacha**: Sorteie lutadores para obter unidades limitadas e de alta raridade para construir seu elenco de defesa principal.
+- **Sistema de Mutação**: Proteja mutações raras como Nen e Titan, que podem superar unidades padrão de raridade mais alta.
+- **Estratégia de Fusão**: Foque recursos duplicados em um único carry principal em vez de espalhar melhorias por várias unidades.
+- **Progressão de Ondas**: Alcance checkpoints mais altos para garantir pagamentos massivos de recursos e desbloquear bônus de sorteio premium.
+</Callout>
+
+<Section icon={Map} title="Sorteio de Lutadores Limitados: Taxas de Gacha e Raridades">
+
+Para ter sucesso na experiência do Roblox [Roll Anime to Fight!](https://www.roblox.com/games/107653945083776/Roll-Anime-to-Fight), você deve dominar o sistema de gacha. Sortear fornece os lutadores usados para construir e melhorar sua equipe de combate. Embora os lutadores Míticos e Lendários representem sorteios altamente valiosos, versões mutadas como Gold, Diamond, Nen e Titan devem ser preservadas como linhas de upgrade separadas.
+
+**Destaques do Vídeo:**
+- **Construção de Elenco**: Como sortear lutadores limitados e preencher as posições da sua equipe ativa logo no início.
+- **Caça a Mutações**: Identificando as melhores mutações visuais e de aprimoramento de atributos.
+- **Loop de Progressão**: Transição das ondas iniciais para o farming estável de checkpoints.
+
+<YouTubeEmbed videoId="EB0sQkBp2s0" title="สุ่มอนิเมะมาป้องกันบ้านใน Roblox : Roll Anime to Fight!" />
+
+Entender os atributos base das suas unidades sorteadas é crítico. Compare a carta completa do lutador em vez de escolher unidades apenas pela cor da raridade.
+
+| Categoria de Raridade | Foco em Atributos | Prioridade de Retenção | Uso Tático Recomendado |
+|---|---|---|---|
+| **Mítico** | Nível, DPS, RNG, CD | **Altíssima** | Equipar imediatamente; preservar duplicatas para fusão. |
+| **Lendário** | Nível, DPS, RNG, CD | **Alta** | Elenco principal de meio de jogo; fundir duplicatas correspondentes. |
+| **Lutador Mutado** | Etiquetas de Mutação Especial | **Alta** | Desenvolver em um ramo de upgrade separado. |
+| **Duplicata Padrão** | Perfil Base Idêntico | **Material de Fusão** | Alimentar a versão ativa principal desse lutador. |
+
+<Callout type="tip" title="Dica Pro: Atributos Acima da Cor">
+Sempre observe o DPS bruto (dano por segundo) e o CD (tempo de recarga) em vez de apenas a cor da raridade. Um lutador Lendário bem fundido ou uma unidade de raridade menor com uma mutação de combate poderosa pode facilmente superar uma unidade Mítica de nível base.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Hierarquia de Mutações e Prioridades de Retenção">
+
+As mutações criam versões especiais das unidades sorteadas e podem aumentar muito o valor de un lutador forte. Uma mutação especial em uma unidade Mítica ou Lendária forte deve ser normalmente protegida, equipada e melhorada antes das cópias comuns.
+
+Classificamos as mutações atualmente ativas abaixo com base em sua viabilidade de combate e desempenho em ondas altas.
+
+| Tier da Mutação | Nome da Mutação | Tipo | Melhor Para | Regra de Retenção |
+|---|---|---|---|---|
+| **Tier S** | **Nen** | Especial | Progressão de ondas altas | Bloquear unidade; fundir apenas com cópias Nen correspondentes. |
+| **Tier S** | **Titan** | Especial | Saída de dano bruto | Proteger como um ramo de upgrade dedicado de alto valor. |
+| **Tier A** | **Diamond** | Visual Premium | Aumentos de DPS equilibrados | Manter separado de cópias normais; fundir dentro da linha Diamond. |
+| **Tier B** | **Gold** | Visual Aprimorado | Progressão de meio de jogo | Usar para melhorar o elenco ativo; melhor que unidades base padrão. |
+| **Tier C** | **Nenhuma** | Padrão | Material de fusão | Usar cópias normais extras para subir o nível de suas unidades mutadas. |
+
+<CardGrid cols={2}>
+  <Card title="Mutações Nen & Titan">
+    Estas são as principais mutações de combate no jogo. Elas oferecem multiplicadores de atributos massivos que escalam excepcionalmente bem em ondas de fim de jogo.
+  </Card>
+  <Card title="Mutações Diamond & Gold">
+    Principalmente aprimoramentos visuais que também oferecem aumentos de atributos estáveis e confiáveis. Excelentes para limpar checkpoints de nível médio.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Aviso de Proteção de Mutação">
+Sempre bloqueie seus lutadores mutados imediatamente após sorteá-los. É incrivelmente fácil consumir acidentalmente uma unidade rara Nen ou Titan como material de fusão padrão ao subir o nível de um lutador base.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guia Passo a Passo para Fusão e Evolução">
+
+O sistema de fusão transforma sorteios repetidos em poder permanente para a equipe. Selecione primeiro a sua melhor versão de um lutador, preserve mutações valiosas e direcione as duplicatas correspondentes para a cópia que permanecerá em sua equipe ativa.
+
+<Steps>
+  <Step num="1" title="Escolha a Cópia Principal">
+    Compare raridade, mutação, DPS, alcance e tempo de recarga antes de selecionar o lutador que receberá as futuras fusões. Sempre priorize variantes mutadas.
+  </Step>
+  <Step num="2" title="Separe os Ramos de Mutação">
+    Mantenha as versões normal, Gold, Diamond, Nen e Titan organizadas como variantes de lutadores separadas. Não consuma uma mutação valiosa para melhorar uma cópia normal mais fraca.
+  </Step>
+  <Step num="3" title="Colete Duplicatas Correspondentes">
+    Continue sorteando e guarde cópias adicionais dos lutadores já usados pela sua equipe principal. Duplicatas de equipe são mais úteis do que lutadores não utilizados de baixo impacto.
+  </Step>
+  <Step num="4" title="Funda para Aumentar o Nível">
+    Use a interface de fusão para combinar lutadores correspondentes e aumentar o nível exibido do lutador selecionado e sua força de combate geral.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Fórmula de Eficiência">
+Concentre suas fusões em um ou dois causadores de dano primários primeiro. Uma única unidade carry de nível 10 é significativamente mais eficaz em limpar ondas do que cinco unidades de nível 2.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Melhores Escalações para Progressão de Ondas">
+
+Construir uma equipe equilibrada nem sempre significa equipar a raridade visível mais alta. Equipes fortes combinam lutadores aprimorados, dano rápido ou consistente, ampla cobertura de inimigos e mutações úteis para que diferentes condições de ondas sejam lidadas com eficiência.
+
+| Configuração da Equipe | Estágio Alvo | Funções Principais do Elenco | Abordagem Estratégica |
+|---|---|---|---|
+| **Iniciante (Early-Game)** | Primeiros sorteios e ondas iniciais | 1 DPS Alto, 1 Atacante Rápido, 1 Cobertura Ampla | Preencha todos os slots antes de fundir; substitua unidades fracas gradualmente. |
+| **Equilibrada (Mid-Game)** | Farming de checkpoints | 1 Carry Forte, 2 Atacantes em Área, 1 Unidade Mutada | Equilibre DPS de alvo único com controle de multidão; invista em fusões. |
+| **Dano de Ondas Altas** | Checkpoints avançados | 2 DPS Sustentados, 1 Atacante Rápido, Núcleo Mutado | Remova unidades de baixo desempenho; foque inteiramente na atividade em ondas altas. |
+
+<Callout type="info" title="Sinergia Tática">
+Certifique-se de ter uma mistura de unidades de ataque rápido para limpar inimigos com pouca vida e unidades lentas e pesadas para destruir alvos com muita vida e chefes.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Checkpoints de Ondas e Recompensas de Progressão">
+
+A progressão de ondas é o principal teste de força da equipe. Melhore a parte mais fraca do elenco após cada tentativa fracassada, alcance o próximo checkpoint, resgate sua recompensa e reinvista esses recursos em sorteios e fusões.
+
+| Estágio de Progressão | Objetivo Principal | Requisito de Equipe | Prioridade de Upgrade | Reinvestimento de Recompensa |
+|---|---|---|---|---|
+| **Ondas Iniciais** | Preencher slots ativos | Cada slot ocupado por uma unidade funcional | Substituir unidades iniciais por unidades sorteadas | Gastar ganhos em sorteios adicionais |
+| **Primeira Corrida Estável** | Limpar múltiplas ondas | Dano espalhado por várias unidades confiáveis | Fundir unidades duplicadas da equipe | Construir um lutador de alto nível por vez |
+| **Avanço de Checkpoint** | Garantir próximo marco | Comparar DPS, alcance e CD após falha | Melhorar o lutador de menor desempenho | Reinvestir recompensas em sorteios de mutação |
+| **Ondas de Elite** | Manter escala de dano | O elenco deve conter unidades mutadas e evoluídas | Desenvolver ramos Diamond, Nen e Titan | Guardar pagamentos para grandes sessões de sorteio |
+
+<Checklist
+  id="wave-preparation-checklist"
+  title="Checklist Pré-Corrida:"
+  items={[
+    "Verifique se todas as posições disponíveis da equipe estão preenchidas.",
+    "Garanta que seus principais causadores de dano foram fundidos até o nível máximo atual.",
+    "Verifique se suas melhores unidades mutadas (Nen/Titan) estão equipadas.",
+    "Bloqueie quaisquer unidades raras recém-sorteadas para evitar fusão acidental.",
+    "Revise o equilíbrio da sua equipe para garantir que você tenha unidades de alvo único e de ataque em área."
+  ]}
+/>
+
+<Callout type="tip" title="Farming de Checkpoints">
+Se você encontrar uma barreira, não continue tentando a mesma onda repetidamente. Saia, farme seu checkpoint concluído mais alto para obter recompensas, sorteie novas unidades, funda duplicatas e retorne quando o DPS total da sua equipe tiver aumentado.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Perguntas Frequentes (FAQ)">
+
+<FAQ items={[
+  {
+    question: "Como sorteio lutadores limitados em Roll Anime to Fight?",
+    answer: "Você pode obter lutadores limitados e raros usando o sistema de sorteio (roll) do jogo. Economize sua moeda, ative bônus de sorte se disponíveis e foque em sortear durante eventos especiais ou usando game passes de mutação para aumentar suas chances de conseguir unidades de alto nível."
+  },
+  {
+    question: "Devo fundir minhas unidades mutadas em unidades padrão?",
+    answer: "Não. Unidades mutadas como Nen, Titan e Diamond devem ser mantidas separadas e aprimoradas em seus próprios ramos dedicados. Fundir uma unidade mutada em uma unidade padrão desperdiçará os multiplicadores de atributos únicos da mutação."
+  },
+  {
+    question: "Qual é a maneira mais rápida de subir o nível dos meus lutadores?",
+    answer: "A maneira mais rápida de subir de nível é fundindo cópias duplicadas do mesmo lutador em sua unidade principal. Isso aumenta o nível da unidade e melhora significativamente seus atributos de DPS, alcance e tempo de recarga."
+  },
+  {
+    question: "Por que não estou conseguindo superar checkpoints de ondas mais altas?",
+    answer: "Falhar em ondas altas geralmente significa que sua equipe carece de tipos de dano equilibrados ou que suas unidades precisam ser mais fundidas. Garanta que você tenha uma mistura de alto DPS de alvo único para chefes e atacantes de ampla cobertura para hordas de inimigos."
+  }
+]} />
+
+</Section>

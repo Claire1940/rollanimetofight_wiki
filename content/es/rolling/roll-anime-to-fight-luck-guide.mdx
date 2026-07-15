@@ -1,0 +1,168 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guía de suerte de Roll Anime to Fight: Estrategia de Reroll y Mutaciones 2026",
+  description: "Domina la guía de suerte de Roll Anime to Fight. Aprende a obtener unidades míticas, optimizar las mutaciones de Nen y Titán, y fusionar luchadores para progresar al máximo en las oleadas.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/161126/fff?text=Luck+and+Rolling+Guide",
+  date: "2026-07-15",
+  author: "Equipo de la Wiki de Roll Anime to Fight"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Guía de suerte de Roll Anime to Fight**: Concéntrate en el ciclo básico de girar, equipar y fusionar para maximizar la eficiencia del equipo.
+- **Las mutaciones son prioridad**: Nunca fusiones ni descartes mutaciones de **Nen** o **Titán**, ya que ofrecen el mayor valor de combate en 2026.
+- **Puntos de control sobre oleadas**: Presiona para alcanzar nuevos puntos de control y desbloquear mayores recompensas de recursos para realizar más giros.
+- **Estrategia de fusión**: Selecciona siempre tu unidad de mayor rareza o mejor mutada como la "Copia Principal" antes de usar los duplicados como material.
+</Callout>
+
+<Section icon={Target} title="Comprendiendo la Guía de Suerte de Roll Anime to Fight">
+
+El núcleo de tu progresión en ¡Rueda Anime para luchar! (Roll Anime to Fight!) gira en torno al sistema gacha. A diferencia de los juegos de defensa de torres estándar donde colocas unidades, aquí **giras para obtener luchadores de anime** y construir un escuadrón móvil que te sigue a través de oleadas interminables. Comprender la **guía de suerte de Roll Anime to Fight** es esencial porque tu éxito depende de la probabilidad estadística de obtener unidades Míticas y Legendarias, así como mutaciones raras.
+
+En el meta actual de julio de 2026, el juego presenta un tema cósmico de color morado oscuro donde los jugadores usan la moneda de giro obtenida en las oleadas para intentar conseguir nuevos personajes. Cada giro es una apuesta, pero puedes influir en tu "suerte" utilizando pases de juego específicos y alcanzando hitos de oleadas más altos.
+
+| Rareza | Tasa de Obtención (Estimada) | Prioridad de Conservación | Rol de Combate |
+| :--- | :--- | :--- | :--- |
+| **Mítico** | **< 0.5%** | **La más alta** | Daño principal y escalado en el juego tardío |
+| **Legendario** | **1% - 3%** | **Alta** | Carries estables a mitad de juego y bases de fusión |
+| **Raro** | **15% - 20%** | **Media** | Rellenos para el inicio del juego y material de fusión |
+| **Común** | **70% - 80%** | **Baja** | Material de fusión principal para unidades superiores |
+
+<Callout type="tip" title="Perspectiva del Editor">
+Aunque los colores de rareza (como el morado para los Míticos) son atractivos, comprueba siempre el **DPS (Daño Por Segundo)** y el **CD (Tiempo de Enfriamiento)** en la carta del luchador. Un Legendario mejorado con una buena mutación a menudo supera a un Mítico base.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Comparación de Mutaciones y Rasgos Raros">
+
+Girar no se trata solo del nombre del personaje; se trata de las **Mutaciones**. Las mutaciones son modificadores especiales que aparecen al azar durante un giro. Pueden cambiar drásticamente el rendimiento de un luchador, haciendo que a veces una unidad de menor rareza sea más viable que una estándar de mayor rareza.
+
+<CardGrid cols={2}>
+  <Card title="Mutaciones de Combate">
+    - **Nen**: El estándar de oro para el escalado de daño.
+    - **Titán**: Grandes mejoras de salud o tamaño para tener presencia en la línea del frente.
+    - **Diamante**: Mejoras visuales y de estadísticas premium.
+  </Card>
+  <Card title="Mutaciones de Utilidad">
+    - **Oro**: Mayor obtención de recursos o estilo visual.
+    - **Velocidad**: Tiempos de enfriamiento de ataque reducidos para una limpieza más rápida.
+    - **Alcance**: Rango extendido para golpear a los enemigos antes.
+  </Card>
+</CardGrid>
+
+Para ayudarte a decidir qué unidades conservar durante tus sesiones de giros, consulta la siguiente tabla de prioridad de mutaciones:
+
+| Mutación | Rango | Beneficio Principal | Recomendación |
+| :--- | :--- | :--- | :--- |
+| **Nen** | **S** | **Multiplicador de DPS Masivo** | Bloquear inmediatamente; nunca usar como material de fusión |
+| **Titán** | **S** | **Daño de Alto Impacto** | El mejor para acabar con jefes de un solo objetivo |
+| **Diamante** | **A** | **Aumento de Estadísticas Equilibrado** | Excelente para una limpieza de oleadas de forma estable |
+| **Oro** | **B** | **Efectos Visuales y Leves Mejoras** | Útil para el progreso a mitad del juego |
+| **Ninguna** | **C** | **Solo Estadísticas Base** | Usar como material de fusión para versiones mutadas |
+
+<Callout type="warning" title="Alerta de Mutación">
+Si obtienes una mutación de **Titán** o **Nen** en una unidad Legendaria, no la fusiones con una unidad Mítica estándar. El bono de mutación a menudo proporciona un límite de poder más alto una vez que se sube al nivel máximo.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Estrategia de Giro y Fusión Paso a Paso">
+
+Para maximizar tu eficiencia en la **guía de suerte de Roll Anime to Fight**, debes seguir una secuencia estricta de acciones. Muchos principiantes desperdician su "suerte" fusionando unidades demasiado pronto o llenando su equipo con los luchadores equivocados.
+
+<Steps>
+  <Step num="1" title="Configuración Inicial del Equipo">
+    Comienza girando hasta llenar todos los espacios disponibles en el equipo. No te preocupes por las rarezas todavía; concéntrate en tener un escuadrón completo para superar las primeras 10-20 oleadas.
+  </Step>
+  <Step num="2" title="Identificar al Carry">
+    Busca tu unidad con el DPS más alto (generalmente un Legendario o un Raro mutado). Esta unidad será tu "Copia Principal" para la fusión.
+  </Step>
+  <Step num="3" title="Concentrar Fusiones">
+    En lugar de subir el nivel de todos por igual, alimenta a tu Carry con todos los duplicados idénticos. Un solo luchador de nivel 10 es significativamente más efectivo que cinco luchadores de nivel 2.
+  </Step>
+  <Step num="4" title="Gestión de Ramas">
+    Si obtienes una versión mutada de una unidad que ya tienes, inicia una nueva "Rama de Mutación". Mantén la versión mutada separada y aliméntala con duplicados normales.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Consejo de Eficiencia">
+El juego te permite bloquear unidades. **Bloquea siempre tus unidades mutadas de nivel S** inmediatamente después de girar para evitar fusiones accidentales durante las sesiones de alta velocidad.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Progresión de Oleadas y Recompensas de Puntos de Control">
+
+La suerte solo te lleva hasta cierto punto; necesitas recursos para seguir girando. ¡El sistema de oleadas en Roll Anime to Fight! está diseñado para recompensar la perseverancia. Los puntos de control son tus mejores aliados, ya que guardan tu progreso y otorgan enormes recompensas.
+
+| Etapa de Progresión | Rango de Oleadas | Objetivo | Uso de Recompensas |
+| :--- | :--- | :--- | :--- |
+| **Inicio del juego** | 1 - 50 | Llenar espacios del equipo | Giros masivos para unidades Legendarias |
+| **Mitad del juego** | 51 - 150 | Alcanzar el 1.er punto de control | Fusión enfocada para nivel 20+ |
+| **Juego tardío** | 151 - 300 | Optimizar mutaciones | Girar por Míticos y rasgos Nen |
+| **Juego final** | 300+ | Superar la oleada final | Maximizar las ramas de Titán y Diamante |
+
+<Callout type="info" title="Mecánica de Puntos de Control">
+Alcanzar un punto de control no solo otorga recompensas; te permite reiniciar desde ese punto con mayor dificultad pero mejor botín. Esta es la forma más rápida de farmear moneda para las estrategias de la **guía de suerte de Roll Anime to Fight**.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="La Lista de Verificación Definitiva para la Creación de Equipos">
+
+Antes de comprometer tu dinero duramente ganado en una sesión masiva de giros, asegúrate de que tu equipo esté optimizado para manejar las oleadas entrantes. Usa esta lista de verificación para verificar tu preparación para empujar oleadas altas.
+
+<Checklist
+  id="team-readiness"
+  title="Requisitos Previos a la Batalla:"
+  items={[
+    "Cada espacio del equipo está ocupado por un luchador con nivel subido",
+    "At menos una unidad tiene un tipo de ataque 'Amplio' (Wide) para control de masas",
+    "Tu distribuidor de daño principal se ha fusionado con todos los duplicados disponibles",
+    "Todas las mutaciones de nivel S y nivel A están bloqueadas y protegidas",
+    "Tienes suficiente moneda para al menos 50 giros si una partida falla",
+    "Los gamepasses de suerte (si los posees) están activos y verificados"
+  ]}
+/>
+
+<Callout type="tip" title="Nota de Estrategia">
+El equilibrio es clave. Un equipo de 5 Míticos de ataque lento a menudo perderá contra hordas de movimiento rápido. Asegúrate de tener al menos un atacante "Rápido" (bajo CD) para limpiar a los rezagados.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo mejoro mi suerte en Roll Anime to Fight?",
+    answer: "La suerte se puede mejorar comprando el gamepass de 2x de Mutación o alcanzando puntos de control más altos que pueden ofrecer bonificaciones ocultas a la calidad de los giros. Estate siempre atento a las actualizaciones de los desarrolladores para eventos temporales de suerte."
+  },
+  {
+    question: "¿Debería fusionar una unidad Mítica en una Legendaria mutada?",
+    answer: "Generalmente, no. Los Míticos tienen estadísticas base más altas. Sin embargo, si el Legendario tiene una mutación 'Nen' y el Mítico no tiene ninguna, el Legendario mutado podría eventualmente superar al Mítico en DPS total después de varias fusiones."
+  },
+  {
+    question: "¿Cuál es la mejor mutación para el progreso al inicio del juego?",
+    answer: "La mutación 'Oro' (Gold) es excelente para el inicio del juego, ya que te ayuda a acumular recursos más rápido, lo que permite giros más frecuentes para encontrar tus primeras unidades Legendarias o Míticas."
+  },
+  {
+    question: "¿Importa más el alcance de ataque (RNG) que el daño (DPS)?",
+    answer: "En la guía de suerte de Roll Anime to Fight, el DPS es la estadística principal. El alcance es una prioridad secundaria; solo es crítico si tus unidades no logran golpear a los enemigos que se mueven rápidamente antes de que salgan de la zona de combate."
+  }
+]} />
+
+<Callout type="info" title="Veredicto Final">
+El éxito en ¡Rueda Anime para luchar! (Roll Anime to Fight!) es un maratón, no un sprint. Usa tus giros sabiamente, respecta el poder de las mutaciones y prioriza siempre fusionar tu equipo principal en lugar de perseguir cada unidad nueva que veas.
+</Callout>
+
+</Section>

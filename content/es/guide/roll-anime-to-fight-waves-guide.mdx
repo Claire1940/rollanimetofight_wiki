@@ -1,0 +1,182 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guía de Roll Anime to Fight: Mejores Estrategias de Oleadas y Configuración de Equipo",
+  description: "Domina la guía de Roll Anime to Fight. Aprende a optimizar tu equipo, fusionar duplicados, gestionar mutaciones y sobrevivir a oleadas infinitas de enemigos.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/161126/fff?text=Wave+Progression+Guide",
+  date: "2026-07-15",
+  author: "Equipo de la Wiki de Roll Anime to Fight",
+  keywords: "roll anime to fight, guía, roblox, estrategias, oleadas, mutaciones, fusión"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Mecánica Principal**: Obtén unidades de anime raras, fusiona duplicados y sobrevive a oleadas infinitas de enemigos.
+- **Equilibrio del Equipo**: Mezcla DPS alto para un solo objetivo con cobertura de área de efecto (AOE) amplia.
+- **Regla de Fusión**: Selecciona siempre tu unidad mutada más fuerte como base antes de fusionar copias.
+- **Objetivos de Puntos de Control**: Alcanza hitos más altos para asegurar pagos de progresión permanentes.
+</Callout>
+
+<Section icon={Map} title="Introducción a la Guía de Roll Anime to Fight">
+
+El núcleo de **Roll Anime to Fight** gira en torno a obtener luchadores de anime poderosos, organizarlos en un equipo de combate equilibrado y defender tu base contra oleadas de enemigos cada vez más difíciles. Tener éxito en este simulador de Roblox requiere una comprensión clara de las estadísticas de los luchadores, la eficiencia de las fusiones y las recompensas de los puntos de control. Dispersar demasiado tus recursos es la forma más rápida de estancarte en la progresión.
+
+**Puntos destacados del video:**
+- **Obtención de Luchadores**: Cómo usar tu moneda inicial para conseguir tu primera alineación activa.
+- **Defensa de Oleadas**: Posicionamiento y gestión de tu escuadrón activo durante el combate.
+- **Conceptos Básicos de Fusión**: Combinar duplicados idénticos para multiplicar el daño total de tu equipo.
+
+<YouTubeEmbed videoId="EB0sQkBp2s0" title="สุ่มอนิเมะมาป้องกันบ้านใน Roblox : Roll Anime to Fight!" />
+
+Para progresar de manera eficiente desde la primera oleada, los jugadores deben concentrarse en mejorar una plantilla central pequeña y de alto rendimiento en lugar de subir de nivel cada unidad de baja rareza que obtengan.
+
+| Etapa | Objetivo Principal | Actividad Clave | Enfoque de Recursos |
+|---|---|---|---|
+| **Juego Temprano** | Llenar espacios activos | Tiradas y Configuración de Equipo | Tiradas Básicas |
+| **Juego Medio** | Superar Puntos de Control | Fusionar Duplicados | Nivelación Enfocada |
+| **Juego Tardío** | Maximizar Oleadas | Optimización de Mutaciones | Mutaciones de Élite |
+
+<Callout type="tip" title="Consejo Profesional">
+Nunca descartes unidades mutadas al principio. Incluso los luchadores de baja rareza con mutaciones de élite pueden superar a las unidades Legendarias limpias en los primeros puntos de control.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Selección de Luchadores y Comparación de Rarezas">
+
+Los luchadores se definen por su rareza, Daño por Segundo (DPS), Rango (RNG), Enfriamiento (CD) y mutaciones activas. Aunque conseguir una unidad Mítica es muy beneficioso, entender cómo interactúan estas estadísticas te ayudará a construir un equipo mucho más cohesivo.
+
+<CardGrid cols={3}>
+  <Card title="Míticos y Legendarios">
+    - **Mayor daño base**
+    - Excelente escalado por nivel
+    - Esenciales para la supervivencia en oleadas altas
+  </Card>
+  <Card title="Luchadores Mutados">
+    - **Oro, Diamante, Nen, Titán**
+    - Multiplica el rendimiento base
+    - Crea ramas de mejora separadas
+  </Card>
+  <Card title="Duplicados Estándar">
+    - **Sin etiquetas de mutación especiales**
+    - Se usan principalmente como alimento para fusión
+    - Llenan huecos en el equipo al inicio del juego
+  </Card>
+</CardGrid>
+
+Compara siempre la tarjeta completa del luchador en lugar de elegir unidades basándote solo en el color de la rareza. Una unidad de ataque rápido con un enfriamiento menor a menudo puede infligir más daño práctico que una unidad de ataque lento con mayor poder base.
+
+| Rareza / Tipo | Clasificación de DPS Base | Rango (RNG) | Enfriamiento (CD) | Prioridad de Conservación |
+|---|---|---|---|---|
+| **Mítico** | ★★★★★ | Largo | Medio | Máxima |
+| **Legendario** | ★★★★☆ | Medio | Rápido | Alta |
+| **Mutado (Nen/Titán)**| ★★★★★ | Varía | Varía | Alta |
+| **Mutated (Oro/Dia)** | ★★★★☆ | Varía | Varía | Media-Alta |
+| **Raro / Común** | ★★☆☆☆ | Corto | Lento | Material de Fusión |
+
+<Callout type="warning" title="Advertencia Importante">
+Verifica dos veces los bloqueos de tus unidades antes de realizar fusiones masivas. Es fácil consumir accidentalmente un luchador mutado raro al mejorar duplicados estándar.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Bucle de Progresión del Equipo Paso a Paso">
+
+Para maximizar tu eficiencia durante las incursiones de oleadas, sigue este bucle de progresión estructurado. Este camino evita el desperdicio de recursos y asegura que el daño de tu equipo escale suavemente junto con la salud de los enemigos.
+
+<Steps>
+  <Step num="1" title="Consigue tu Primera Plantilla">
+    Gasta tu moneda inicial para obtener luchadores. Tu objetivo inmediato es llenar cada uno de los espacios activos del equipo. No fusiones nada hasta que tu equipo esté completo.
+  </Step>
+  <Step num="2" title="Equilibra Solo Objetivo y AOE">
+    Equipa una mezcla de atacantes rápidos para un solo objetivo para derretir jefes, y unidades de cobertura de amplio rango para limpiar grupos densos de enemigos estándar.
+  </Step>
+  <Step num="3" title="Aísla las Ramas Mutadas">
+    Cuando obtengas variantes mutadas como Nen o Titán, bloquéalas inmediatamente. Estas unidades deben nivelarse como líneas de mejora independientes y premium.
+  </Step>
+  <Step num="4" title="Fusiona Duplicados Estándar">
+    Alimenta a tus luchadores equipados principales con duplicados limpios y no mutados para aumentar sus niveles. Concéntrate primero en nivelar a tus principales atacantes.
+  </Step>
+  <Step num="5" title="Avanza al Siguiente Punto de Control">
+    Entra en las oleadas y llega lo más lejos posible. Si fallas, analiza qué unidades se quedaron atrás en daño, mejóralas e intenta la incursión de nuevo.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Consejo para el Éxito">
+Alcanzar un nuevo punto de control asegura recompensas de progresión permanentes. Reinvierte estos pagos de hitos directamente en más tiradas para buscar Míticos y mutaciones.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Jerarquía de Mutaciones y Reglas de Fusión">
+
+Las mutaciones añaden multiplicadores masivos a tus unidades. Al fusionar, usa siempre la unidad con la mutación superior como base. La siguiente tabla describe las mutaciones confirmadas en el juego y cómo debes manejarlas durante las mejoras.
+
+| Mutación | Tipo Visual / Estadísticas | Rol Recomendado | Estrategia de Fusión |
+|---|---|---|---|
+| **Nen** | Mutación de Stats Especiales | DPS Central de Oleadas Altas | Bloquear inmediatamente; fusionar solo copias Nen coincidentes. |
+| **Titán** | Mutación de Stats Especiales | Atacante Pesado de Primera Línea | Mantener separado; construir una línea de mejora dedicada. |
+| **Diamante** | Visual / Stats Premium | Carry de Juego Medio a Tardío | Fusionar solo con variantes Diamante coincidentes. |
+| **Oro** | Visual / Stats Mejorados | Progresión de Juego Medio | Usar para potenciar la plantilla activa; fusionar copias estándar. |
+| **Ninguna** | Unidad Estándar | Relleno Inicial / Comida de XP | Alimentar a variantes mutadas para aumentar los niveles base. |
+
+<Callout type="info" title="Información de Optimización">
+Si tienes activo el game pass de 2x Mutación, prioriza guardar unidades de alta rareza con etiquetas Nen o Titán, ya que estas formarán la base de tu equipo para el juego tardío.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Oleadas Infinitas y Recompensas de Puntos de Control">
+
+La progresión de oleadas es la prueba definitiva de la sinergia de tu equipo. A medida que superas hitos, los enemigos ganan enormes cantidades de salud y velocidades de movimiento más rápidas. Debes ajustar la composición de tu equipo para contrarrestar estas amenazas crecientes.
+
+| Rango de Oleadas | Dificultad | Requisito del Equipo Principal | Prioridad de Mejora | Estrategia de Recompensa |
+|---|---|---|---|---|
+| **Oleadas 1-10** | Fácil | Cualquier plantilla activa llena | Nivelar DPS principal | Gastar ganancias en tiradas básicas |
+| **Oleadas 11-25** | Media | Equilibrio solo objetivo y AOE | Fusionar duplicados activos | Enfocarse en nivelar equipo central |
+| **Oleadas 26-40** | Difícil | Legendarios / Mutantes nivelados | Desarrollar líneas Diamante/Nen | Reinvertir en búsqueda de mutaciones |
+| **Oleadas 41+** | Extrema | Míticos con Mutaciones S-Tier | Maximizar unidades de élite | Ahorrar pagos para mejoras masivas |
+
+<Checklist
+  id="wave-prep-checklist"
+  title="Lista de Verificación Previa:"
+  items={[
+    "Asegúrate de que cada espacio de equipo activo esté lleno con tus unidades de mayor DPS.",
+    "Verifica que tienes al menos una unidad de AOE de amplia cobertura equipada.",
+    "Bloquea todas las mutaciones Nen, Titán y Diamante recién obtenidas.",
+    "Fusiona todos los duplicados estándar en tu escuadrón activo principal.",
+    "Reclama todas las recompensas de puntos de control pendientes del menú principal."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la forma más eficiente de usar la guía de Roll Anime to Fight para principiantes?",
+    answer: "Los principiantes deben concentrarse primero en llenar todos los espacios activos del equipo. No fusiones unidades duplicadas hasta que tengas una plantilla completa de luchadores activos. Una vez que tu equipo esté lleno, fusiona los duplicados estándar en tus unidades de mayor DPS y supera oleadas para desbloquear recompensas de puntos de control."
+  },
+  {
+    question: "¿Debería conservar una unidad de menor rareza con una mutación en lugar de una Legendaria limpia?",
+    answer: "Sí, en muchos casos. Las mutaciones de alto nivel como Nen o Titán proporcionan bonificaciones de estadísticas masivas que pueden permitir que una unidad de menor rareza supere a una unidad Legendaria estándar sin fusiones. Compara siempre su DPS real y sus enfriamientos."
+  },
+  {
+    question: "¿Cómo funciona el sistema de fusión en Roll Anime to Fight?",
+    answer: "El sistema de fusión te permite combinar unidades duplicadas idénticas para aumentar el nivel de la unidad base y el poder de combate general. Selecciona siempre tu mejor unidad mutada como base de la fusión para preservar la mutación."
+  },
+  {
+    question: "¿Por qué no logro progresar más allá de los puntos de control de oleadas superiores?",
+    answer: "Esto suele ser causado por un equipo desequilibrado. Asegúrate de tener una mezcla de atacantes rápidos para un solo objetivo para los jefes y unidades AOE de amplio rango para los grupos de enemigos comunes. Si tu equilibrio es correcto, simplemente necesitas conseguir más duplicados para fusionar y nivelar tu escuadrón central."
+  }
+]} />
+
+</Section>

@@ -1,1 +1,12 @@
-{}
+{
+  "nav": {
+    "codes": "Códigos",
+    "guide": "Guía",
+    "tiers": "Tier List",
+    "fighters": "Luchadores",
+    "rolling": "Rollos",
+    "merging": "Fusión",
+    "teams": "Equipos",
+    "updates": "Actualizaciones"
+  }
+}

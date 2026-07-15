@@ -1,0 +1,185 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guía de Jefes de Roll Anime to Fight: Estrategias de Oleadas Altas 2026",
+  description: "Domina Roll Anime to Fight con nuestra guía sobre oleadas de jefes, fusión de unidades, mutaciones y composiciones de equipo para alcanzar los puntos de control más altos en 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/4c1d95/fff?text=Boss+Battle+Guide",
+  date: "2026-07-15",
+  author: "Equipo de la Wiki de Roll Anime to Fight",
+  keywords: "guía de jefes, roll anime to fight, oleadas altas, fusión de unidades, mutaciones"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Guía de Jefes de Roll Anime to Fight**: El éxito depende de equilibrar **unidades de un solo objetivo con alto DPS** con atacantes de área amplia para limpiar a los enemigos adyacentes al jefe.
+- **Ciclo Principal**: Realiza tiradas para obtener unidades Míticas, **fusiona duplicados coincidentes** para aumentar niveles y prioriza mutaciones como **Titan o Nen** para aumentos masivos de estadísticas.
+- **Estrategia de Puntos de Control**: Empuja hasta el punto de control más lejano posible para asegurar recompensas; reinvierte estos recursos en **buscar mutaciones raras**.
+- **Prioridad de Fusión**: Nunca fusiones una unidad que necesites actualmente para tu equipo activo; solo fusiona repuestos una vez que tu **plantilla de 6 espacios** sea estable.
+- **Meta de Mutaciones**: Una unidad de menor rareza con una **mutación Titan** a menudo supera a una unidad Mítica base sin rasgos.
+</Callout>
+
+<Section icon={Map} title="Progresión de Oleadas y Mecánicas de Jefes">
+
+En Roll Anime to Fight, los jefes actúan como los principales guardianes de la progresión. Estos enemigos con gran cantidad de vida aparecen en intervalos de oleadas específicos, poniendo a prueba el Daño Por Segundo (DPS) total de tu equipo y tu capacidad para gestionar los enfriamientos. A diferencia de las oleadas estándar donde los enemigos son numerosos pero débiles, las oleadas de jefes requieren una ráfaga concentrada de daño. Alcanzar puntos de control más altos es esencial porque te permite saltar las oleadas iniciales de baja recompensa e ir directamente al contenido de alto rendimiento.
+
+**Puntos Destacados del Video:**
+- **Configuración Inicial**: Cómo gastar tus primeras tiradas para construir un equipo inicial funcional para 2026.
+- **Flujo de Combate**: Posicionamiento y monitoreo del rendimiento de las unidades durante los primeros encuentros con jefes.
+- **Ciclo de Recompensas**: Reclamar bonos de puntos de control para acelerar tus tiradas de gacha.
+
+<YouTubeEmbed videoId="EB0sQkBp2s0" title="Gameplay de Roll Anime to Fight y Consejos de Jefes" />
+
+<Callout type="tip" title="Enfoca tu Fuego">
+Cuando aparezca un jefe, vigila la prioridad de objetivo de tus unidades. Si el jefe está protegido por enemigos más pequeños, asegúrate de tener al menos dos unidades con cobertura de área amplia (AOE) para despejar el camino a tus atacantes pesados de un solo objetivo.
+</Callout>
+
+| Etapa de Oleada | Objetivo Principal | Dificultad del Jefe | Poder de Equipo Recomendado |
+|:---|:---|:---|:---|
+| **Oleadas 1-20** | Construir plantilla completa | Baja | Unidades Raras/Épicas básicas |
+| **Oleadas 21-50** | Primer ciclo de fusión | Media | Épicas/Legendarias con nivel |
+| **Oleadas 51-100** | Caza de mutaciones | Alta | 2+ unidades Míticas |
+| **Oleadas 100+** | Empuje de oleadas altas | Extrema | Mutantes totalmente fusionados |
+
+</Section>
+
+<Section icon={Swords} title="Composición de Equipo para Encuentros con Jefes">
+
+Construir un equipo en Roll Anime to Fight requiere más que solo equipar las unidades más raras que encuentres. Un equipo equilibrado debe tener en cuenta tres factores principales: **DPS Sostenido**, **Daño de Ráfaga** y **Alcance de Ataque (RNG)**. Si todo tu equipo consiste en luchadores de corto alcance, el jefe podría destruir tu base antes de que puedan siquiera enfrentarlo.
+
+<CardGrid cols={2}>
+  <Card title="El Equipamiento Mata-Jefes">
+    - **Principal**: Unidad Mítica con el mayor DPS de un solo objetivo
+    - **Soporte**: Atacante de alta velocidad (Bajo CD)
+    - **Mutación**: Centrarse en rasgos **Titan** o **Nen**
+    - **Rol**: Derretir las barras de vida de los jefes rápidamente
+  </Card>
+  <Card title="El Equipamiento de Limpieza de Oleadas">
+    - **Principal**: Unidades AOE de amplia cobertura
+    - **Soporte**: Unidades con RNG (Alcance) equilibrado
+    - **Mutación**: **Gold** o **Diamond** para farmear
+    - **Rol**: Mantener el camino despejado para los mata-jefes
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Evita la Redundancia">
+No llenes los 6 espacios con unidades que tengan enfriamientos (CD) largos. Si todas tus unidades atacan a la vez y luego esperan 5 segundos, el jefe pasará de largo por tus defensas durante el tiempo de inactividad.
+</Callout>
+
+| Rol de Unidad | Mejores Estadísticas | Prioridad | Por qué Importa |
+|:---|:---|:---|:---|
+| **Carry Principal** | Alto DPS / Bajo CD | **Crítico** | Presión constante sobre el jefe |
+| **Francotirador** | Alto RNG / Alto DPS | **Alta** | Ataca a los jefes desde el otro lado del mapa |
+| **Buffer** | Rasgos Especiales | **Media** | Mejora al resto del equipo |
+| **Material** | Estadísticas Base | **Baja** | Usar exclusivamente para fusión |
+
+</Section>
+
+<Section icon={Sparkles} title="Fusión y Nivelación Paso a Paso">
+
+El sistema de fusión es la única forma de mantener tus unidades relevantes a medida que la vida de los enemigos escala exponencialmente. Al combinar unidades duplicadas, aumentas su nivel base, lo que multiplica directamente su producción de daño. Sin embargo, fusionar las unidades incorrectas demasiado pronto puede dejar a tu equipo debilitado.
+
+<Steps>
+  <Step num="1" title="Selecciona tu Unidad Base">
+    Identifica la unidad con la mejor mutación (ej. Titan o Nen). Esta será tu "Ancla". Todos los demás duplicados se alimentarán a esta unidad específica.
+  </Step>
+  <Step num="2" title="Verifica la Plantilla">
+    Asegúrate de tener suficientes unidades para llenar los espacios de tu equipo activo antes de fusionar. Es mejor tener seis unidades de Nivel 1 por separado que una unidad de Nivel 5 y cinco espacios vacíos.
+  </Step>
+  <Step num="3" title="Ejecuta la Fusión">
+    Abre el menú de fusión, selecciona tu Ancla y añade los duplicados coincidentes. Revisa la vista previa de "Estadísticas Actualizadas" para ver el aumento de DPS antes de confirmar.
+  </Step>
+  <Step num="4" title="Prueba en Combate">
+    Ejecuta una oleada de jefe para ver si el rendimiento de la unidad nivelada justifica el gasto de recursos. Si el jefe aún pasa, es posible que debas pivotar hacia una rama de mutación diferente.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Eficiencia de Fusión">
+Prioriza siempre fusionar primero a tu **Carry Principal**. Una sola unidad de alto nivel suele ser más efectiva para matar a un jefe que tres unidades de nivel medio debido a cómo funciona la resistencia al daño en las oleadas posteriores.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Tier List de Mutaciones: Edición Mata-Jefes">
+
+Las mutaciones son modificadores raros que pueden aparecer en cualquier unidad al realizar una tirada. En el meta de 2026, la mutación de una unidad es a menudo más importante que su rareza base. Para las peleas contra jefes, buscas mutaciones que proporcionen multiplicadores de estadísticas puras en lugar de efectos visuales.
+
+| Mutación | Rango | Utilidad contra Jefes | Regla de Conservación |
+|:---|:---:|:---|:---|
+| **Titan** | **S** | Aumento masivo de HP y Daño | **Nunca descartar** |
+| **Nen** | **S** | Velocidad de Ataque y DPS extremos | **Bloquear inmediatamente** |
+| **Diamond** | **A** | Alto daño y estilo visual | Usar para el equipo principal |
+| **Gold** | **B** | Aumento de estadísticas moderado | Bueno para el mid-game |
+| **None** | **C** | Rendimiento estándar | Usar como material de fusión |
+
+<Callout type="info" title="El Pase de Mutación 2x">
+Si te tomas en serio la progresión de oleadas altas, el game pass de Mutación 2x es la inversión más valiosa. Aumenta significativamente las probabilidades de obtener unidades Titan y Nen, que son necesarias para los puntos de control finales.
+</Callout>
+
+<Checklist
+  id="boss-prep-checklist"
+  title="Verificación Pre-Jefe:"
+  items={[
+    "Los 6 espacios del equipo están llenos con tus unidades de mayor DPS",
+    "El carry principal ha sido fusionado al menos 3 veces",
+    "Al menos una unidad tiene una estadística de Alcance (RNG) superior a 40",
+    "Se han eliminado las unidades duplicadas del inventario para aumentar los niveles",
+    "Se han reclamado los puntos de control para maximizar la moneda de tiradas"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Trophy} title="Estrategias Avanzadas para Oleadas Altas">
+
+Una vez que pasas la oleada 100, el juego cambia de la simple supervivencia a la microgestión. En esta etapa, las unidades "basura" (cualquier cosa por debajo de Legendaria) ya no deberían estar en tu plantilla activa a menos que tengan una mutación perfecta.
+
+**Estrategias Clave del Meta 2026:**
+- **El Stutter-Step**: Rota unidades dentro y fuera de tu equipo entre oleadas para asegurar que tus luchadores de mayor nivel estén siempre al máximo de eficiencia.
+- **Acumulación de Recursos**: No gastes toda tu moneda en tiradas de inmediato. Ahorra para "Eventos de Suerte" o actualizaciones que introduzcan nuevos niveles Míticos.
+- **Ramificación de Mutaciones**: Mantén dos versiones de tu mejor unidad Mítica: una con mutación Titan para jefes y otra con mutación Gold para farmear oleadas más fáciles.
+
+<Callout type="tip" title="El Alcance es el Rey">
+En oleadas altas, los jefes se mueven más rápido. Las unidades con estadísticas de RNG altas pueden empezar a infligir daño en el momento en que el jefe aparece, dándote esos segundos extra necesarios para asegurar la eliminación antes de que lleguen a tu base.
+</Callout>
+
+| Tipo de Estrategia | Complejidad | Efectividad | Costo de Recursos |
+|:---|:---:|:---:|:---|
+| **Re-tirada de Rareza** | Baja | Media | Alto (Gacha) |
+| **Acumulación de Fusiones** | Media | Alta | Moderado (Duplicados) |
+| **Caza de Mutaciones** | Alta | **Extrema** | Muy Alto (Suerte/Tiempo) |
+
+</Section>
+
+<Section icon={Shield} title="FAQ: Guía de Jefes de Roll Anime to Fight">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la mejor unidad para matar jefes en Roll Anime to Fight?",
+    answer: "Actualmente, cualquier unidad Mítica con una mutación Titan o Nen se considera la mejor para las peleas contra jefes. Estas mutaciones proporcionan los multiplicadores de DPS necesarios para superar las grandes cantidades de vida en las oleadas finales."
+  },
+  {
+    question: "¿Cómo alcanzo los puntos de control más altos más rápido?",
+    answer: "Enfoca todos tus recursos de fusión en una o dos unidades 'carry' en lugar de repartirlos por todo el equipo. Una sola unidad con exceso de nivel a menudo puede completar sola las primeras 50 oleadas, permitiéndote llegar rápido a los puntos de control."
+  },
+  {
+    question: "¿Debería fusionar mi único duplicado si es un Legendario?",
+    answer: "Solo si tienes una sexta unidad de poder igual o superior para reemplazarla. Nunca dejes un espacio del equipo vacío solo para ganar unos pocos niveles en otra unidad."
+  },
+  {
+    question: "¿Se reinicia la dificultad del jefe después de un punto de control?",
+    answer: "No, la dificultad sigue escalando. Los puntos de control simplemente te permiten reiniciar desde una oleada posterior para que no tengas que pasar por el contenido fácil cada vez que falles."
+  }
+]} />
+
+<Callout type="success" title="Consejo Final">
+Sé constante con tus tiradas y no te desanimes por la mala suerte. El sistema de piedad de 2026 asegura que, incluso si no obtienes un Mítico de inmediato, tu material de fusión eventualmente hará que tus unidades Legendarias sean lo suficientemente fuertes para superar la mayoría del contenido de jefes.
+</Callout>
+
+</Section>

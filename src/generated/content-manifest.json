@@ -1,1 +1,500 @@
-{}
+{
+  "en": {
+    "codes": [
+      {
+        "slug": "roll-anime-to-fight-codes",
+        "file": "roll-anime-to-fight-codes"
+      }
+    ],
+    "fighters": [
+      {
+        "slug": "roll-anime-to-fight-all-fighters",
+        "file": "roll-anime-to-fight-all-fighters"
+      },
+      {
+        "slug": "roll-anime-to-fight-fighter-rarities",
+        "file": "roll-anime-to-fight-fighter-rarities"
+      },
+      {
+        "slug": "roll-anime-to-fight-fighter-stats",
+        "file": "roll-anime-to-fight-fighter-stats"
+      },
+      {
+        "slug": "roll-anime-to-fight-limited-fighters",
+        "file": "roll-anime-to-fight-limited-fighters"
+      },
+      {
+        "slug": "roll-anime-to-fight-secret-fighters",
+        "file": "roll-anime-to-fight-secret-fighters"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "roll-anime-to-fight-beginner-guide",
+        "file": "roll-anime-to-fight-beginner-guide"
+      },
+      {
+        "slug": "roll-anime-to-fight-boss-guide",
+        "file": "roll-anime-to-fight-boss-guide"
+      },
+      {
+        "slug": "roll-anime-to-fight-checkpoints-guide",
+        "file": "roll-anime-to-fight-checkpoints-guide"
+      },
+      {
+        "slug": "roll-anime-to-fight-controls",
+        "file": "roll-anime-to-fight-controls"
+      },
+      {
+        "slug": "roll-anime-to-fight-how-to-play",
+        "file": "roll-anime-to-fight-how-to-play"
+      },
+      {
+        "slug": "roll-anime-to-fight-waves-guide",
+        "file": "roll-anime-to-fight-waves-guide"
+      }
+    ],
+    "merging": [
+      {
+        "slug": "roll-anime-to-fight-duplicate-fighters",
+        "file": "roll-anime-to-fight-duplicate-fighters"
+      },
+      {
+        "slug": "roll-anime-to-fight-fighter-merge-priorities",
+        "file": "roll-anime-to-fight-fighter-merge-priorities"
+      },
+      {
+        "slug": "roll-anime-to-fight-how-to-level-fighters",
+        "file": "roll-anime-to-fight-how-to-level-fighters"
+      },
+      {
+        "slug": "roll-anime-to-fight-max-fighter-level",
+        "file": "roll-anime-to-fight-max-fighter-level"
+      },
+      {
+        "slug": "roll-anime-to-fight-merge-guide",
+        "file": "roll-anime-to-fight-merge-guide"
+      }
+    ],
+    "rolling": [
+      {
+        "slug": "roll-anime-to-fight-how-to-get-more-rolls",
+        "file": "roll-anime-to-fight-how-to-get-more-rolls"
+      },
+      {
+        "slug": "roll-anime-to-fight-luck-bonuses",
+        "file": "roll-anime-to-fight-luck-bonuses"
+      },
+      {
+        "slug": "roll-anime-to-fight-luck-guide",
+        "file": "roll-anime-to-fight-luck-guide"
+      },
+      {
+        "slug": "roll-anime-to-fight-rare-fighter-odds",
+        "file": "roll-anime-to-fight-rare-fighter-odds"
+      },
+      {
+        "slug": "roll-anime-to-fight-roll-rates",
+        "file": "roll-anime-to-fight-roll-rates"
+      },
+      {
+        "slug": "roll-anime-to-fight-rolling-strategy",
+        "file": "roll-anime-to-fight-rolling-strategy"
+      }
+    ],
+    "teams": [
+      {
+        "slug": "roll-anime-to-fight-best-early-game-team",
+        "file": "roll-anime-to-fight-best-early-game-team"
+      },
+      {
+        "slug": "roll-anime-to-fight-best-team",
+        "file": "roll-anime-to-fight-best-team"
+      },
+      {
+        "slug": "roll-anime-to-fight-best-wave-team",
+        "file": "roll-anime-to-fight-best-wave-team"
+      },
+      {
+        "slug": "roll-anime-to-fight-how-to-equip-more-fighters",
+        "file": "roll-anime-to-fight-how-to-equip-more-fighters"
+      },
+      {
+        "slug": "roll-anime-to-fight-team-building-guide",
+        "file": "roll-anime-to-fight-team-building-guide"
+      }
+    ],
+    "tiers": [
+      {
+        "slug": "roll-anime-to-fight-best-early-game-fighters",
+        "file": "roll-anime-to-fight-best-early-game-fighters"
+      },
+      {
+        "slug": "roll-anime-to-fight-best-fighters",
+        "file": "roll-anime-to-fight-best-fighters"
+      },
+      {
+        "slug": "roll-anime-to-fight-best-late-game-fighters",
+        "file": "roll-anime-to-fight-best-late-game-fighters"
+      },
+      {
+        "slug": "roll-anime-to-fight-tier-list",
+        "file": "roll-anime-to-fight-tier-list"
+      }
+    ],
+    "updates": [
+      {
+        "slug": "roll-anime-to-fight-changelog",
+        "file": "roll-anime-to-fight-changelog"
+      },
+      {
+        "slug": "roll-anime-to-fight-discord",
+        "file": "roll-anime-to-fight-discord"
+      },
+      {
+        "slug": "roll-anime-to-fight-latest-update",
+        "file": "roll-anime-to-fight-latest-update"
+      },
+      {
+        "slug": "roll-anime-to-fight-reddit",
+        "file": "roll-anime-to-fight-reddit"
+      },
+      {
+        "slug": "roll-anime-to-fight-update-6",
+        "file": "roll-anime-to-fight-update-6"
+      }
+    ]
+  },
+  "es": {
+    "codes": [
+      {
+        "slug": "roll-anime-to-fight-codes",
+        "file": "roll-anime-to-fight-codes"
+      }
+    ],
+    "fighters": [
+      {
+        "slug": "roll-anime-to-fight-all-fighters",
+        "file": "roll-anime-to-fight-all-fighters"
+      },
+      {
+        "slug": "roll-anime-to-fight-fighter-rarities",
+        "file": "roll-anime-to-fight-fighter-rarities"
+      },
+      {
+        "slug": "roll-anime-to-fight-fighter-stats",
+        "file": "roll-anime-to-fight-fighter-stats"
+      },
+      {
+        "slug": "roll-anime-to-fight-limited-fighters",
+        "file": "roll-anime-to-fight-limited-fighters"
+      },
+      {
+        "slug": "roll-anime-to-fight-secret-fighters",
+        "file": "roll-anime-to-fight-secret-fighters"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "roll-anime-to-fight-beginner-guide",
+        "file": "roll-anime-to-fight-beginner-guide"
+      },
+      {
+        "slug": "roll-anime-to-fight-boss-guide",
+        "file": "roll-anime-to-fight-boss-guide"
+      },
+      {
+        "slug": "roll-anime-to-fight-checkpoints-guide",
+        "file": "roll-anime-to-fight-checkpoints-guide"
+      },
+      {
+        "slug": "roll-anime-to-fight-controls",
+        "file": "roll-anime-to-fight-controls"
+      },
+      {
+        "slug": "roll-anime-to-fight-how-to-play",
+        "file": "roll-anime-to-fight-how-to-play"
+      },
+      {
+        "slug": "roll-anime-to-fight-waves-guide",
+        "file": "roll-anime-to-fight-waves-guide"
+      }
+    ],
+    "merging": [
+      {
+        "slug": "roll-anime-to-fight-duplicate-fighters",
+        "file": "roll-anime-to-fight-duplicate-fighters"
+      },
+      {
+        "slug": "roll-anime-to-fight-fighter-merge-priorities",
+        "file": "roll-anime-to-fight-fighter-merge-priorities"
+      },
+      {
+        "slug": "roll-anime-to-fight-how-to-level-fighters",
+        "file": "roll-anime-to-fight-how-to-level-fighters"
+      },
+      {
+        "slug": "roll-anime-to-fight-max-fighter-level",
+        "file": "roll-anime-to-fight-max-fighter-level"
+      },
+      {
+        "slug": "roll-anime-to-fight-merge-guide",
+        "file": "roll-anime-to-fight-merge-guide"
+      }
+    ],
+    "rolling": [
+      {
+        "slug": "roll-anime-to-fight-how-to-get-more-rolls",
+        "file": "roll-anime-to-fight-how-to-get-more-rolls"
+      },
+      {
+        "slug": "roll-anime-to-fight-luck-bonuses",
+        "file": "roll-anime-to-fight-luck-bonuses"
+      },
+      {
+        "slug": "roll-anime-to-fight-luck-guide",
+        "file": "roll-anime-to-fight-luck-guide"
+      },
+      {
+        "slug": "roll-anime-to-fight-rare-fighter-odds",
+        "file": "roll-anime-to-fight-rare-fighter-odds"
+      },
+      {
+        "slug": "roll-anime-to-fight-roll-rates",
+        "file": "roll-anime-to-fight-roll-rates"
+      },
+      {
+        "slug": "roll-anime-to-fight-rolling-strategy",
+        "file": "roll-anime-to-fight-rolling-strategy"
+      }
+    ],
+    "teams": [
+      {
+        "slug": "roll-anime-to-fight-best-early-game-team",
+        "file": "roll-anime-to-fight-best-early-game-team"
+      },
+      {
+        "slug": "roll-anime-to-fight-best-team",
+        "file": "roll-anime-to-fight-best-team"
+      },
+      {
+        "slug": "roll-anime-to-fight-best-wave-team",
+        "file": "roll-anime-to-fight-best-wave-team"
+      },
+      {
+        "slug": "roll-anime-to-fight-how-to-equip-more-fighters",
+        "file": "roll-anime-to-fight-how-to-equip-more-fighters"
+      },
+      {
+        "slug": "roll-anime-to-fight-team-building-guide",
+        "file": "roll-anime-to-fight-team-building-guide"
+      }
+    ],
+    "tiers": [
+      {
+        "slug": "roll-anime-to-fight-best-early-game-fighters",
+        "file": "roll-anime-to-fight-best-early-game-fighters"
+      },
+      {
+        "slug": "roll-anime-to-fight-best-fighters",
+        "file": "roll-anime-to-fight-best-fighters"
+      },
+      {
+        "slug": "roll-anime-to-fight-best-late-game-fighters",
+        "file": "roll-anime-to-fight-best-late-game-fighters"
+      },
+      {
+        "slug": "roll-anime-to-fight-tier-list",
+        "file": "roll-anime-to-fight-tier-list"
+      }
+    ],
+    "updates": [
+      {
+        "slug": "roll-anime-to-fight-changelog",
+        "file": "roll-anime-to-fight-changelog"
+      },
+      {
+        "slug": "roll-anime-to-fight-discord",
+        "file": "roll-anime-to-fight-discord"
+      },
+      {
+        "slug": "roll-anime-to-fight-latest-update",
+        "file": "roll-anime-to-fight-latest-update"
+      },
+      {
+        "slug": "roll-anime-to-fight-reddit",
+        "file": "roll-anime-to-fight-reddit"
+      },
+      {
+        "slug": "roll-anime-to-fight-update-6",
+        "file": "roll-anime-to-fight-update-6"
+      }
+    ]
+  },
+  "pt": {
+    "codes": [
+      {
+        "slug": "roll-anime-to-fight-codes",
+        "file": "roll-anime-to-fight-codes"
+      }
+    ],
+    "fighters": [
+      {
+        "slug": "roll-anime-to-fight-all-fighters",
+        "file": "roll-anime-to-fight-all-fighters"
+      },
+      {
+        "slug": "roll-anime-to-fight-fighter-rarities",
+        "file": "roll-anime-to-fight-fighter-rarities"
+      },
+      {
+        "slug": "roll-anime-to-fight-fighter-stats",
+        "file": "roll-anime-to-fight-fighter-stats"
+      },
+      {
+        "slug": "roll-anime-to-fight-limited-fighters",
+        "file": "roll-anime-to-fight-limited-fighters"
+      },
+      {
+        "slug": "roll-anime-to-fight-secret-fighters",
+        "file": "roll-anime-to-fight-secret-fighters"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "roll-anime-to-fight-beginner-guide",
+        "file": "roll-anime-to-fight-beginner-guide"
+      },
+      {
+        "slug": "roll-anime-to-fight-boss-guide",
+        "file": "roll-anime-to-fight-boss-guide"
+      },
+      {
+        "slug": "roll-anime-to-fight-checkpoints-guide",
+        "file": "roll-anime-to-fight-checkpoints-guide"
+      },
+      {
+        "slug": "roll-anime-to-fight-controls",
+        "file": "roll-anime-to-fight-controls"
+      },
+      {
+        "slug": "roll-anime-to-fight-how-to-play",
+        "file": "roll-anime-to-fight-how-to-play"
+      },
+      {
+        "slug": "roll-anime-to-fight-waves-guide",
+        "file": "roll-anime-to-fight-waves-guide"
+      }
+    ],
+    "merging": [
+      {
+        "slug": "roll-anime-to-fight-duplicate-fighters",
+        "file": "roll-anime-to-fight-duplicate-fighters"
+      },
+      {
+        "slug": "roll-anime-to-fight-fighter-merge-priorities",
+        "file": "roll-anime-to-fight-fighter-merge-priorities"
+      },
+      {
+        "slug": "roll-anime-to-fight-how-to-level-fighters",
+        "file": "roll-anime-to-fight-how-to-level-fighters"
+      },
+      {
+        "slug": "roll-anime-to-fight-max-fighter-level",
+        "file": "roll-anime-to-fight-max-fighter-level"
+      },
+      {
+        "slug": "roll-anime-to-fight-merge-guide",
+        "file": "roll-anime-to-fight-merge-guide"
+      }
+    ],
+    "rolling": [
+      {
+        "slug": "roll-anime-to-fight-how-to-get-more-rolls",
+        "file": "roll-anime-to-fight-how-to-get-more-rolls"
+      },
+      {
+        "slug": "roll-anime-to-fight-luck-bonuses",
+        "file": "roll-anime-to-fight-luck-bonuses"
+      },
+      {
+        "slug": "roll-anime-to-fight-luck-guide",
+        "file": "roll-anime-to-fight-luck-guide"
+      },
+      {
+        "slug": "roll-anime-to-fight-rare-fighter-odds",
+        "file": "roll-anime-to-fight-rare-fighter-odds"
+      },
+      {
+        "slug": "roll-anime-to-fight-roll-rates",
+        "file": "roll-anime-to-fight-roll-rates"
+      },
+      {
+        "slug": "roll-anime-to-fight-rolling-strategy",
+        "file": "roll-anime-to-fight-rolling-strategy"
+      }
+    ],
+    "teams": [
+      {
+        "slug": "roll-anime-to-fight-best-early-game-team",
+        "file": "roll-anime-to-fight-best-early-game-team"
+      },
+      {
+        "slug": "roll-anime-to-fight-best-team",
+        "file": "roll-anime-to-fight-best-team"
+      },
+      {
+        "slug": "roll-anime-to-fight-best-wave-team",
+        "file": "roll-anime-to-fight-best-wave-team"
+      },
+      {
+        "slug": "roll-anime-to-fight-how-to-equip-more-fighters",
+        "file": "roll-anime-to-fight-how-to-equip-more-fighters"
+      },
+      {
+        "slug": "roll-anime-to-fight-team-building-guide",
+        "file": "roll-anime-to-fight-team-building-guide"
+      }
+    ],
+    "tiers": [
+      {
+        "slug": "roll-anime-to-fight-best-early-game-fighters",
+        "file": "roll-anime-to-fight-best-early-game-fighters"
+      },
+      {
+        "slug": "roll-anime-to-fight-best-fighters",
+        "file": "roll-anime-to-fight-best-fighters"
+      },
+      {
+        "slug": "roll-anime-to-fight-best-late-game-fighters",
+        "file": "roll-anime-to-fight-best-late-game-fighters"
+      },
+      {
+        "slug": "roll-anime-to-fight-tier-list",
+        "file": "roll-anime-to-fight-tier-list"
+      }
+    ],
+    "updates": [
+      {
+        "slug": "roll-anime-to-fight-changelog",
+        "file": "roll-anime-to-fight-changelog"
+      },
+      {
+        "slug": "roll-anime-to-fight-discord",
+        "file": "roll-anime-to-fight-discord"
+      },
+      {
+        "slug": "roll-anime-to-fight-latest-update",
+        "file": "roll-anime-to-fight-latest-update"
+      },
+      {
+        "slug": "roll-anime-to-fight-reddit",
+        "file": "roll-anime-to-fight-reddit"
+      },
+      {
+        "slug": "roll-anime-to-fight-update-6",
+        "file": "roll-anime-to-fight-update-6"
+      }
+    ]
+  }
+}
