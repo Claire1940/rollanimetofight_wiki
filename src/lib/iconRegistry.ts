@@ -28,6 +28,20 @@ export const iconRegistry: Record<string, LucideIcon> = {
   Gamepad2: LucideIcons.Gamepad2,
   TrendingUp: LucideIcons.TrendingUp,
 
+  // Roll Anime to Fight 主题图标（首页导航卡片）
+  Gift: LucideIcons.Gift,
+  Compass: LucideIcons.Compass,
+  Trophy: LucideIcons.Trophy,
+  Dices: LucideIcons.Dices,
+  GitMerge: LucideIcons.GitMerge,
+  Atom: LucideIcons.Atom,
+  Waves: LucideIcons.Waves,
+  Swords: LucideIcons.Swords,
+  Zap: LucideIcons.Zap,
+  Layers: LucideIcons.Layers,
+  Target: LucideIcons.Target,
+  ListChecks: LucideIcons.ListChecks,
+
   // UI 交互图标
   Sparkles: LucideIcons.Sparkles,
   ChevronDown: LucideIcons.ChevronDown,
