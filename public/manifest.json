@@ -1,12 +1,12 @@
 {
-  "name": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-  "short_name": "Lucid Blocks",
-  "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
+  "name": "Roll Anime to Fight Wiki - Codes, Units & Mutations",
+  "short_name": "Roll Anime to Fight",
+  "description": "Roll Anime to Fight Wiki covers codes, unit tiers, mutations, merge tips, wave strategies, and beginner guides for the Roblox anime defense gacha game.",
   "start_url": "/",
   "display": "standalone",
   "orientation": "any",
-  "theme_color": "#1a7a7a",
-  "background_color": "#0a0a0a",
+  "theme_color": "#6b26d9",
+  "background_color": "#090712",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
