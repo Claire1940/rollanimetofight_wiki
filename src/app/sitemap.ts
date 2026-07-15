@@ -5,30 +5,30 @@ import { routing, type Locale } from '@/i18n/routing'
 // output:'export' 要求路由处理器显式声明静态
 export const dynamic = 'force-static'
 
-const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.lucidblocks.wiki'
+const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.rollanimetofight.wiki'
 
 // 内容类型优先级配置
 const contentTypePriority: Record<string, number> = {
-	'guides': 0.9,
-	'crafting': 0.9,
-	'biomes': 0.8,
-	'creatures': 0.8,
-	'items': 0.8,
-	'achievements': 0.7,
-	'lore': 0.7,
-	'support': 0.6,
+	'codes': 0.9,
+	'guide': 0.9,
+	'tiers': 0.8,
+	'fighters': 0.8,
+	'rolling': 0.8,
+	'merging': 0.8,
+	'teams': 0.8,
+	'updates': 0.7,
 }
 
 // 内容更新频率配置
 const contentTypeChangeFrequency: Record<string, 'daily' | 'weekly' | 'monthly'> = {
-	'guides': 'weekly',
-	'crafting': 'weekly',
-	'biomes': 'weekly',
-	'creatures': 'weekly',
-	'items': 'weekly',
-	'achievements': 'monthly',
-	'lore': 'monthly',
-	'support': 'monthly',
+	'codes': 'daily',
+	'guide': 'weekly',
+	'tiers': 'weekly',
+	'fighters': 'weekly',
+	'rolling': 'weekly',
+	'merging': 'weekly',
+	'teams': 'weekly',
+	'updates': 'daily',
 }
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {

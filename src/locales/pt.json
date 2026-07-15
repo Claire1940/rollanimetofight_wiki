@@ -1,12 +1,682 @@
 {
+  "seo": {
+    "home": {
+      "title": "Wiki de Role Anime para Lutar - Códigos, Unidades e Mutações",
+      "description": "Encontre códigos de Role Anime para Lutar, tiers de unidades, mutações, dicas de fusão, estratégias de ondas, melhorias e guias para iniciantes para o jogo de defesa de anime do Roblox.",
+      "keywords": "Role Anime para Lutar, Roblox, códigos, tier list, unidades, mutações, fusão, ondas",
+      "ogTitle": "Wiki de Role Anime para Lutar - Códigos, Unidades e Mutações",
+      "ogDescription": "Encontre códigos de Role Anime para Lutar, tiers de unidades, mutações, dicas de fusão, estratégias de ondas e guias para iniciantes para o jogo de defesa de anime do Roblox.",
+      "twitterTitle": "Wiki de Role Anime para Lutar - Códigos e Unidades",
+      "twitterDescription": "Códigos de Role Anime para Lutar, tiers de unidades, mutações, dicas de fusão e estratégias de ondas para o jogo de defesa de anime do Roblox."
+    }
+  },
   "nav": {
     "codes": "Códigos",
     "guide": "Guia",
     "tiers": "Tier List",
     "fighters": "Lutadores",
-    "rolling": "Rolagens",
+    "rolling": "Girar",
     "merging": "Fusão",
     "teams": "Equipes",
     "updates": "Atualizações"
+  },
+  "pages": {
+    "codes": {
+      "title": "Códigos de Role Anime para Lutar",
+      "description": "Todos os códigos ativos de Role Anime para Lutar em um só lugar, com os passos para resgatar e as recompensas que cada código concede, como giros grátis, gemas e impulsos.",
+      "metaTitle": "Códigos de Role Anime para Lutar (Julho de 2026) - Giros e Gemas Grátis",
+      "metaDescription": "Resgate os códigos mais recentes de Role Anime para Lutar para obter giros, gemas e impulsos grátis. Lista de códigos ativos atualizada, passos de resgate e códigos expirados.",
+      "categoryLabel": "RESGATAR CÓDIGOS",
+      "whatIs": "O que são os Códigos de Role Anime para Lutar?",
+      "whatIsDescription": "Os códigos são sequências promocionais que o desenvolvedor lança através da experiência oficial do Roblox e da comunidade Another Slop. Inserir um código no menu de Códigos do jogo concede recompensas gratuitas, como giros extras, gemas e impulsos de progressão.",
+      "why": "Por que usar nossa lista de códigos?",
+      "whySteps": {
+        "step1Title": "Sempre Atualizada",
+        "step1Description": "Monitoramos a página oficial do Roblox e o canal da comunidade para que cada código listado reflita seu status real de ativo ou expirado.",
+        "step2Title": "Passos de Resgate Claros",
+        "step2Description": "Siga o caminho exato do menu e o formato de entrada para evitar erros de digitação, espaços extras ou erros de capitalização que impedem o resgate.",
+        "step3Title": "Detalhamento das Recompensas",
+        "step3Description": "Veja o que cada código concede antes de resgatar, para que você saiba quais giros, gemas ou impulsos grátis serão creditados em sua conta."
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os códigos"
+    },
+    "guide": {
+      "title": "Guias de Role Anime para Lutar",
+      "description": "Guias passo a passo de Role Anime para Lutar cobrindo seus primeiros giros, controles, sobrevivência a ondas, checkpoints e lutas contra chefes, do iniciante ao avançado.",
+      "metaTitle": "Guia de Role Anime para Lutar - Dicas para Iniciantes, Controles e Ondas",
+      "metaDescription": "Domine o Role Anime para Lutar com guias para iniciantes, controles, estratégias de ondas e checkpoints, e dicas de lutas contra chefes para uma progressão mais rápida no Roblox.",
+      "categoryLabel": "GUIAS",
+      "whatIs": "O que é um guia de Role Anime para Lutar?",
+      "whatIsDescription": "Os guias orientam você pelo ciclo principal — rolar combatentes, equipar uma equipe, sobreviver a ondas, mesclar duplicatas e passar por checkpoints — com passos práticos que você pode seguir em sua primeira sessão.",
+      "why": "Por que ler estes guias?",
+      "whySteps": {
+        "step1Title": "Primeiros 30 minutos rápidos",
+        "step1Description": "Vá do seu primeiro giro a uma equipe funcional sem gastar recursos com os combatentes errados.",
+        "step2Title": "Controles e Mecânicas",
+        "step2Description": "Aprenda controles de movimento, posicionamento e combate para reagir mais rápido quando as ondas ficarem cheias.",
+        "step3Title": "Estratégia de Ondas e Chefes",
+        "step3Description": "Encare checkpoints e lutas contra chefes com a composição de equipe certa em vez de tentar adivinhar."
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os guias"
+    },
+    "tiers": {
+      "title": "Tier List de Role Anime para Lutar",
+      "description": "Tier list de Role Anime para Lutar classificando cada combatente por dano, velocidade de ataque, cobertura e valor ao longo da progressão de ondas iniciais, intermediárias e avançadas.",
+      "metaTitle": "Tier List de Role Anime para Lutar - Melhores Combatentes Classificados",
+      "metaDescription": "Veja os melhores combatentes de Role Anime para Lutar classificados em uma tier list completa por dano, velocidade de ataque e cobertura para ondas de início, meio e fim de jogo.",
+      "categoryLabel": "TIER LIST",
+      "whatIs": "O que é a Tier List de Role Anime para Lutar?",
+      "whatIsDescription": "A tier list compara combatentes nos ranques S, A, B e C com base em dano contínuo, velocidade de ataque, cobertura de inimigos e quão bem eles se saem conforme a vida dos inimigos escala em checkpoints mais altos.",
+      "why": "Por que confiar nesta Tier List?",
+      "whySteps": {
+        "step1Title": "Desempenho acima da raridade",
+        "step1Description": "Os combatentes são avaliados pelo dano real nas ondas e pela eficiência, não apenas pela cor da raridade.",
+        "step2Title": "Classificações por etapa",
+        "step2Description": "Classificações separadas para início, meio e fim de jogo mostram quais combatentes atingem o pico em cada etapa de progressão.",
+        "step3Title": "Objetivos claros de melhoria",
+        "step3Description": "Use os rankings para decidir quais duplicatas fundir e quais lutadores merecem seus recursos primeiro."
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Guias de Tier List"
+    },
+    "fighters": {
+      "title": "Lutadores de Role Anime para Lutar",
+      "description": "Um catálogo completo de lutadores de Role Anime para Lutar cobrindo atributos, raridades, unidades secretas e limitadas, e como cada lutador é obtido.",
+      "metaTitle": "Lutadores de Role Anime para Lutar - Atributos, Raridades e Unidades Secretas",
+      "metaDescription": "Navegue por todos os lutadores de Role Anime para Lutar com atributos, raridades, unidades secretas e limitadas, e métodos de aquisição em um catálogo pesquisável.",
+      "categoryLabel": "LUTADORES",
+      "whatIs": "O Que São os Lutadores de Role Anime para Lutar?",
+      "whatIsDescription": "Lutadores são as unidades de anime que você rola, equipa e envia para a batalha. Cada um tem sua própria raridade, dano, alcance, tempo de recarga e método de aquisição, e o catálogo abrange unidades padrão, secretas e limitadas.",
+      "why": "Por Que Consultar o Catálogo de Lutadores?",
+      "whySteps": {
+        "step1Title": "Referência Completa de Atributos",
+        "step1Description": "Verifique o dano, DPS, alcance e tempo de recarga de qualquer lutador antes de investir recursos nele.",
+        "step2Title": "Raridades Explicadas",
+        "step2Description": "Entenda como os níveis de raridade afetam o valor e quais unidades valem a pena manter ou fundir.",
+        "step3Title": "Unidades Secretas e Limitadas",
+        "step3Description": "Acompanhe lutadores secretos e limitados difíceis de encontrar para saber o que buscar e quando eles aparecem."
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Guias de Lutadores"
+    },
+    "rolling": {
+      "title": "Guia de Rolagem de Role Anime para Lutar",
+      "description": "Guia de rolagem de Role Anime para Lutar cobrindo taxas de drop, sorte, chances de lutadores raros, estratégia de rolagem e como conseguir mais rolagens de forma eficiente.",
+      "metaTitle": "Guia de Rolagem de Role Anime para Lutar - Taxas, Sorte e Probabilidades",
+      "metaDescription": "Aprenda as taxas de rolagem, bônus de sorte, probabilidades de lutadores raros e estratégias de rolagem de Role Anime para Lutar para obter unidades mais fortes e rolagens mais rápidas.",
+      "categoryLabel": "ROLAGEM",
+      "whatIs": "O Que é a Rolagem em Role Anime para Lutar?",
+      "whatIsDescription": "A rolagem é como você obtém novos lutadores. Cada rolagem segue taxas definidas e é influenciada por bônus de sorte, então entender as probabilidades e a estratégia ajuda você a obter unidades raras e mutadas com mais confiança.",
+      "why": "Por Que Aprender Estratégias de Rolagem?",
+      "whySteps": {
+        "step1Title": "Conheça as Taxas de Rolagem",
+        "step1Description": "Veja a probabilidade real por trás de cada raridade para planejar suas rolagens em vez de depender apenas da sorte.",
+        "step2Title": "Acumule Bônus de Sorte",
+        "step2Description": "Use boosts de sorte e o tempo certo para aumentar suas chances de obter lutadores raros e com mutações.",
+        "step3Title": "Role de Forma Eficiente",
+        "step3Description": "Siga estratégias e métodos de rolagem comprovados para ganhar mais giros e evitar desperdiçar moedas."
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Guias de Rolagem"
+    },
+    "merging": {
+      "title": "Guia de Mesclagem de Role Anime para Lutar",
+      "description": "Guia de mesclagem de Role Anime para Lutar cobrindo fusão de duplicatas, subida de nível, nível máximo de lutador, prioridades de mesclagem e eficiência de recursos.",
+      "metaTitle": "Guia de Mesclagem de Role Anime para Lutar - Nível e Prioridades",
+      "metaDescription": "Domine a mesclagem de Role Anime para Lutar: funda duplicatas, suba de nível, alcance o nível máximo de lutador, defina prioridades de mesclagem e gaste recursos de forma eficiente.",
+      "categoryLabel": "MESCLAGEM",
+      "whatIs": "O que é a Mesclagem em Role Anime para Lutar?",
+      "whatIsDescription": "A mesclagem combina lutadores duplicados para aumentar o nível e a força de combate de uma unidade. É a principal maneira de transformar giros repetidos em poder de equipe permanente, por isso escolher a cópia certa e a ordem de mesclagem importa.",
+      "why": "Por que Seguir uma Estratégia de Mesclagem?",
+      "whySteps": {
+        "step1Title": "Suba de Nível Mais Rápido",
+        "step1Description": "Alimente sua melhor cópia com duplicatas correspondentes para levar os lutadores ao nível máximo sem desperdiçar mesclagens.",
+        "step2Title": "Prioridades Inteligentes de Mesclagem",
+        "step2Description": "Decide quais lutadores merecem mesclagens primeiro e quais unidades de baixa raridade não valem o investimento.",
+        "step3Title": "Lide com Duplicatas Corretamente",
+        "step3Description": "Mantenha mutações valiosas em ramificações separadas e mescle apenas duplicatas que realmente melhorem sua equipe ativa."
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Guias de Mesclagem"
+    },
+    "teams": {
+      "title": "Melhores Equipes de Role Anime para Lutar",
+      "description": "Guias de montagem de equipe de Role Anime para Lutar cobrindo as melhores equipes para início de jogo, meio de jogo, ondas e focadas em mutações, além de como equipar mais lutadores.",
+      "metaTitle": "Melhores Equipes de Role Anime para Lutar - Builds para Cada Fase",
+      "metaDescription": "Monte as melhores equipes de Role Anime para Lutar para o início do jogo, sobrevivência a ondas e mutações, com dicas de montagem de equipe e como equipar mais lutadores.",
+      "categoryLabel": "EQUIPES",
+      "whatIs": "O que Faz uma Equipe de Role Anime para Lutar ser Forte?",
+      "whatIsDescription": "Uma equipe forte equilibra dano focado, atacantes rápidos, ampla cobertura de inimigos e mutações úteis. A composição certa muda conforme você avança dos checkpoints iniciais para rodadas de ondas altas.",
+      "why": "Por que Usar Estas Builds de Equipe?",
+      "whySteps": {
+        "step1Title": "Builds para Cada Fase",
+        "step1Description": "Siga equipes prontas para ondas iniciais, intermediárias e avançadas, ajustadas para o seu momento na progressão.",
+        "step2Title": "Construção de Equipes Mais Inteligente",
+        "step2Description": "Aprenda quais funções preencher e como misturar dano focado e em área para limpar ondas de forma consistente.",
+        "step3Title": "Equipe Mais Lutadores",
+        "step3Description": "Descubra como expandir sua escalação ativa para que mais das suas unidades mais fortes possam lutar ao mesmo tempo."
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Guias de Equipe"
+    },
+    "updates": {
+      "title": "Atualizações de Role Anime para Lutar",
+      "description": "Atualizações de Role Anime para Lutar cobrindo o patch mais recente, changelog, novas unidades, mudanças de balanceamento e onde seguir a comunidade.",
+      "metaTitle": "Atualizações de Role Anime para Lutar - Último Patch e Changelog",
+      "metaDescription": "Acompanhe as atualizações de Role Anime para Lutar, incluindo o patch mais recente, changelog completo, novas unidades, mudanças de balanceamento e canais oficiais da comunidade.",
+      "categoryLabel": "ATUALIZAÇÕES",
+      "whatIs": "O que são as Atualizações de Role Anime para Lutar?",
+      "whatIsDescription": "As atualizações acompanham mudanças de versão, novos lutadores, ajustes de balanceamento, eventos e reformulações de sistema. Manter-se atualizado ajuda você a adaptar sua equipe e giros às mudanças do patch mais recente.",
+      "why": "Por que Acompanhar as Atualizações de Role Anime para Lutar?",
+      "whySteps": {
+        "step1Title": "Último Patch Primeiro",
+        "step1Description": "Veja o que a atualização mais recente mudou no momento em que for lançada, desde novas unidades até ajustes de balanceamento.",
+        "step2Title": "Changelog Completo",
+        "step2Description": "Revise as atualizações anteriores em ordem para entender como o jogo e seus lutadores evoluíram.",
+        "step3Title": "Fique Conectado",
+        "step3Description": "Encontre as comunidades certas do Reddit e Discord para acompanhar anúncios e discutir atualizações com outros jogadores."
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Guias de Atualização"
+    }
+  },
+  "common": {
+    "home": "Início",
+    "more": "Mais",
+    "playNow": "Jogar no Roblox",
+    "switchLanguage": "Alterar Idioma",
+    "switchTheme": "Alterar Tema",
+    "lightMode": "Modo Claro",
+    "darkMode": "Modo Escuro",
+    "notFound": "Página Não Encontrada",
+    "notFoundDescription": "A página que você está procurando não existe.",
+    "backToHome": "Voltar para o Início",
+    "relatedArticles": "Artigos Relacionados",
+    "readMore": "Leia Mais",
+    "articlesComingSoon": "Artigos em breve"
+  },
+  "hero": {
+    "badge": "Simulador de Defesa Gacha de Anime",
+    "title": "Wiki de Role Anime para Lutar",
+    "description": "Role lutadores de anime raros, funda duplicatas para subir de nível, monte uma equipe poderosa e sobreviva a ondas infinitas de inimigos enquanto busca checkpoints e mutações melhores.",
+    "getFreeCodesCTA": "Obter Códigos Gratuitos",
+    "playOnRobloxCTA": "Jogar no Roblox",
+    "stats": {
+      "stat1": {
+        "value": "530K+",
+        "label": "Total de Visitas"
+      },
+      "stat2": {
+        "value": "1.1K+",
+        "label": "Pico de CCU"
+      },
+      "stat3": {
+        "value": "95%",
+        "label": "Avaliação dos Jogadores"
+      },
+      "stat4": {
+        "value": "10 de jun. de 2026",
+        "label": "Data de Lançamento"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Gameplay de Role Anime para Lutar",
+    "description": "Role lutadores de anime, funda duplicatas, monte uma equipe poderosa e sobreviva a ondas infinitas de inimigos neste jogo de defesa de anime no Roblox."
+  },
+  "tools": {
+    "title": "Role Anime para Lutar",
+    "titleHighlight": "Recursos",
+    "subtitle": "Tudo o que você precisa para rolar lutadores, montar equipes, fundir unidades e avançar em ondas infinitas no Role Anime para Lutar.",
+    "cards": [
+      {
+        "icon": "Presente",
+        "title": "Códigos do Role Anime para Lutar",
+        "description": "Códigos ativos, passos de resgate e onde novos códigos são lançados"
+      },
+      {
+        "icon": "Bússola",
+        "title": "Guia para Iniciantes de Role Anime para Lutar",
+        "description": "Primeiros giros, montagem de equipe, fusão e checkpoints iniciais"
+      },
+      {
+        "icon": "Troféu",
+        "title": "Tier List de Role Anime para Lutar",
+        "description": "Classifique lutadores por dano, velocidade, alcance e mutações"
+      },
+      {
+        "icon": "Usuários",
+        "title": "Melhores Equipes de Role Anime para Lutar",
+        "description": "Builds de equipe para início, meio, ondas altas e focadas em mutações"
+      },
+      {
+        "icon": "Dados",
+        "title": "Guia de Giros e Raridades de Role Anime para Lutar",
+        "description": "Níveis de raridade, taxas de giro e quais lutadores manter"
+      },
+      {
+        "icon": "GitMerge",
+        "title": "Guia de Fusão e Nível de Role Anime para Lutar",
+        "description": "Funda duplicatas, suba de nível e proteja mutações"
+      },
+      {
+        "icon": "Átomo",
+        "title": "Guia de Mutações de Role Anime para Lutar",
+        "description": "Prioridades para manter mutações: Nen, Titã, Diamante e Ouro"
+      },
+      {
+        "icon": "Ondas",
+        "title": "Checkpoints de Ondas e Recompensas de Role Anime para Lutar",
+        "description": "Progressão de ondas, checkpoints e recompensas de marcos"
+      }
+    ]
+  },
+  "modules": {
+    "codes": {
+      "title": "Códigos de Role Anime para Lutar",
+      "intro": "Role Anime para Lutar inclui um menu de Códigos no jogo para recompensas promocionais. Insira os códigos exatamente como foram publicados, pois a ortografia, o uso de maiúsculas e espaços extras podem impedir o resgate.",
+      "checkedOn": "Verificado em 15 de julho de 2026",
+      "statusCards": [
+        {
+          "group": "Códigos Ativos",
+          "message": "Estamos monitorando ativamente a experiência oficial no Roblox e a página da comunidade da Another Slop. Nenhum código ativo foi publicado ainda, então volte a verificar conforme o desenvolvedor lançar novos códigos para Role Anime para Lutar."
+        },
+        {
+          "group": "Códigos Expirados",
+          "message": "Nenhum código expirado foi arquivado ainda. Assim que os códigos forem lançados e posteriormente desativados, cada um será listado aqui junto com a recompensa que costumava oferecer."
+        }
+      ],
+      "redeemSteps": [
+        "Inicie Role Anime para Lutar no Roblox.",
+        "Abra a opção de Códigos no menu do jogo.",
+        "Insira o código exatamente como foi publicado.",
+        "Pressione o botão de resgate e colete a recompensa."
+      ],
+      "sources": [
+        {
+          "name": "Página de Role Anime para Lutar no Roblox",
+          "purpose": "Descrição do jogo, notas de atualização e anúncios dos desenvolvedores"
+        },
+        {
+          "name": "Comunidade do Roblox de Another Slop",
+          "purpose": "Anúncios da comunidade e futuros lançamentos de códigos"
+        }
+      ]
+    },
+    "beginner-guide": {
+      "title": "Guia para Iniciantes de Role Anime para Lutar",
+      "intro": "O ciclo básico é simples: role combatentes de anime, equipe sua equipe mais forte, sobreviva a ondas de inimigos, mescle combatentes duplicados e continue avançando nos checkpoints. O progresso inicial é mais rápido quando você melhora uma pequena equipe ativa em vez de distribuir recursos por todos os combatentes.",
+      "steps": [
+        {
+          "title": "Role Seus Primeiros Combatentes",
+          "description": "Use o sistema de rolagem inicial para obter seus primeiros combatentes de anime. Mantenha combatentes utilizáveis suficientes para preencher sua equipe ativa antes de mesclar os duplicados.",
+          "priority": "Monte uma equipe completa primeiro"
+        },
+        {
+          "title": "Compare o Desempenho em Combate",
+          "description": "Verifique o dano, velocidade de ataque, alcance de ataque, nível, raridade e mutação de cada combatente. Um combatente de raridade menor com melhor dano prático pode continuar sendo útil durante as ondas iniciais.",
+          "priority": "Julgue o desempenho, não apenas a raridade"
+        },
+        {
+          "title": "Monte uma Equipe Equilibrada",
+          "description": "Combine combatentes que causam forte dano focado com combatentes que cobrem grupos maiores de inimigos. Evite preencher todos os espaços com atacantes lentos que fazem a mesma função.",
+          "priority": "Misture dano focado e ataques mais amplos"
+        },
+        {
+          "title": "Inicie as Ondas Infinitas",
+          "description": "Entre na batalha e deixe seus combatentes equipados eliminarem as ondas de inimigos que se aproximam. Observe quais combatentes contribuem consistentemente com dano e quais ficam para trás.",
+          "priority": "Use os resultados das batalhas para melhorar a equipe"
+        },
+        {
+          "title": "Mescle Combatentes Duplicados",
+          "description": "Mescle combatentes de anime duplicados para aumentar seus níveis e melhorar seu valor de combate. Não mescle um duplicado que ainda seja necessário para completar sua escalação ativa.",
+          "priority": "Mescle as cópias sobressalentes primeiro"
+        },
+        {
+          "title": "Alcance Novos Checkpoints",
+          "description": "Avance por ondas cada vez mais difíceis para alcançar checkpoints mais altos e ganhar recompensas de progressão maiores. Volte a rolar e mesclar sempre que sua equipe não conseguir mais limpar as ondas com eficiência.",
+          "priority": "Melhore seus combatentes antes de tentar insistir em uma barreira"
+        },
+        {
+          "title": "Proteja Combatentes Raros e Mutações",
+          "description": "Revise os combatentes raros e os efeitos de mutação antes de usá-los como material de mesclagem. Uma mutação útil pode tornar um combatente mais valioso do que outra unidade com raridade base maior.",
+          "priority": "Bloqueie unidades valiosas antes de mesclar"
+        }
+      ]
+    },
+    "anime-tier-list": {
+      "title": "Lista de Níveis de Combatentes de Role Anime para Lutar",
+      "intro": "A raridade de um combatente é apenas uma parte do seu valor. As unidades mais fortes combinam dano consistente com velocidade de ataque ou alcance úteis e continuam rendendo bem depois que a vida dos inimigos escala em checkpoints mais altos.",
+      "tiers": [
+        {
+          "tier": "S",
+          "label": "Essenciais para Ondas Altas",
+          "profile": "Lutadores com alto dano sustentado, velocidade de ataque eficiente, boa cobertura contra inimigos ou uma mutação poderosa que permanece útil durante ondas difíceis.",
+          "bestUse": "Equipe principal permanente e investimento importante em melhorias",
+          "mergeRule": "Mantenha todas as cópias fortes até que a equipe principal esteja completa"
+        },
+        {
+          "tier": "A",
+          "label": "Lutadores Fortes da Equipe Principal",
+          "profile": "Lutadores que se destacam em dano focado, velocidade de ataque ou ataques mais amplos, mas que não combinam todas as vantagens de nível superior.",
+          "bestUse": "Equipes de início de jogo, meio de jogo e da maioria dos checkpoints",
+          "mergeRule": "Suba o nível da melhor cópia e funda as duplicatas não utilizadas"
+        },
+        {
+          "tier": "B",
+          "label": "Lutadores de Progressão Consistente",
+          "profile": "Lutadores consistentes que limpam as ondas iniciais e intermediárias, mas começam a perder eficiência quando a vida dos inimigos e a pressão das ondas aumentam.",
+          "bestUse": "Equipes iniciais, melhorias temporárias e preenchimento de funções ausentes",
+          "mergeRule": "Substitua gradualmente à medida que lutadores mais fortes forem obtidos nos rolls"
+        },
+        {
+          "tier": "C",
+          "label": "Preenchimentos de Início de Jogo",
+          "profile": "Lutadores de baixo desempenho com dano limitado, ataques lentos, cobertura fraca ou sem vantagem de mutação.",
+          "bestUse": "Preencher espaços vazios da equipe durante os primeiros rolls",
+          "mergeRule": "Use cópias sobressalentes como material de fusão após obter substitutos"
+        }
+      ]
+    },
+    "best-teams": {
+      "title": "Melhores Equipes de Role Anime para Lutar",
+      "intro": "A melhor equipe nem sempre é a formação com a maior raridade visível. Equipes fortes combinam lutadores aprimorados, dano rápido ou consistente, cobertura inimiga mais ampla e mutações úteis para que diferentes condições de onda sejam tratadas com eficiência.",
+      "teams": [
+        {
+          "name": "Equipe Inicial de Início de Jogo",
+          "stage": "Primeiros rolls e checkpoints iniciais",
+          "roles": [
+            "Lutador disponível com o maior dano",
+            "Lutador de ataque rápido",
+            "Lutador de ampla cobertura",
+            "Melhores lutadores nivelados restantes"
+          ],
+          "strategy": "Preencha todas as posições disponíveis da equipe antes de fundir unidades intensamente. Substitua lutadores iniciais fracos um por um conforme rolls melhores surgirem.",
+          "priority": "Complete a equipe, depois funda as duplicatas"
+        },
+        {
+          "name": "Equipe Equilibrada de Meio de Jogo",
+          "stage": "Progressão estável e farm de checkpoints",
+          "roles": [
+            "Lutador forte de dano focado",
+            "Um ou mais lutadores de ataque em área",
+            "Atacante rápido e consistente",
+            "Melhor portador de mutação útil"
+          ],
+          "strategy": "Equilibre o dano focado para inimigos difíceis com ataques em área para ondas lotadas. Invista mesclagens em lutadores que permaneçam ativos e úteis durante toda a batalha.",
+          "priority": "Causador de dano principal, lutador de cobertura, portador de mutação"
+        },
+        {
+          "name": "Equipe de Dano para Ondas Altas",
+          "stage": "Checkpoints avançados e ondas difíceis",
+          "roles": [
+            "Melhores lutadores de dano sustentado",
+            "Atacantes rápidos com alto tempo de atividade",
+            "Lutador de cobertura ampla de alto valor",
+            "Unidades totalmente mescladas ou com mutações fortes"
+          ],
+          "strategy": "Remova lutadores cujo dano fique muito atrás do restante da formação. Priorize o desempenho comprovado em ondas altas em vez de manter uma unidade apenas por sua raridade superior.",
+          "priority": "Dano sustentado e eficiência de ataque"
+        },
+        {
+          "name": "Equipe Focada em Mutações",
+          "stage": "Otimização do elenco",
+          "roles": [
+            "Mutação benéfica mais forte",
+            "Lutadores de duplicatas mescladas com nível elevado",
+            "Opção de dano focado",
+            "Opção de cobertura ampla"
+          ],
+          "strategy": "Compare lutadores com mutação diretamente com alternativas de raridade superior durante o mesmo intervalo de ondas. Mantenha mutações que melhorem visivelmente o dano, a velocidade ou a capacidade geral de limpeza.",
+          "priority": "Melhor combinação de mutação e lutador de alto desempenho"
+        }
+      ],
+      "checklist": {
+        "title": "Checklist de Montagem de Equipe",
+        "stage": "Antes de iniciar uma nova sequência de ondas",
+        "checks": [
+          "Todas as posições disponíveis da equipe estão preenchidas",
+          "A formação inclui tanto dano focado quanto em área",
+          "Mutações úteis estão equipadas em vez de serem perdidas em mesclagens",
+          "Cópias duplicadas foram mescladas em lutadores ativos",
+          "Lutadores de baixo rendimento foram substituídos",
+          "As unidades mais fortes recebem melhorias primeiro"
+        ]
+      }
+    },
+    "rolling-and-rarities-guide": {
+      "title": "Guia de Rolagem e Raridades de Role Anime para Lutar",
+      "intro": "Cada rolagem pode produzir um novo lutador com sua própria raridade, dano, alcance, tempo de recarga, traço e mutação. Compare a carta completa do lutador em vez de escolher unidades apenas pela cor da raridade. Lutadores Míticos e Lendários são rolagens valiosas, enquanto versões mutadas como Ouro, Diamante, Nen e Titã devem ser preservadas como linhas de upgrade separadas.",
+      "rows": [
+        {
+          "category": "Mítico",
+          "stats": "Nível, DPS, ALC, CD, traço e mutação",
+          "keep": "Mais alto",
+          "use": "Equipe lutadores Míticos fortes imediatamente e preserve cada duplicata útil para fusão."
+        },
+        {
+          "category": "Lendário",
+          "stats": "Nível, DPS, ALC, CD, traço e mutação",
+          "keep": "Alto",
+          "use": "Use lutadores Lendários enquanto monta um elenco Mítico. Funda duplicatas correspondentes em vez de descartá-las."
+        },
+        {
+          "category": "Lutador Mutado",
+          "stats": "Uma etiqueta de mutação aparece com o lutador, incluindo Ouro, Diamante, Nen ou Titã",
+          "keep": "Alto",
+          "use": "Mantenha as cópias mutadas separadas das cópias normais e desenvolva o ramo de mutação mais forte."
+        },
+        {
+          "category": "Duplicata Padrão",
+          "stats": "Mesmo nome de lutador sem nenhuma etiqueta de mutação especial",
+          "keep": "Material de Fusão",
+          "use": "Alimente o lutador selecionado para sua equipe ativa com as duplicatas correspondentes."
+        },
+        {
+          "category": "DPS",
+          "stats": "Dano causado por segundo",
+          "keep": "Comparação Primária",
+          "use": "Priorize um DPS maior quando dois lutadores tiverem raridade e velocidade de ataque semelhantes."
+        },
+        {
+          "category": "ALC",
+          "stats": "O alcance de ataque do lutador",
+          "keep": "Comparação Secundária",
+          "use": "Use lutadores de maior alcance quando os inimigos escaparem antes que as unidades de curto alcance possam atacar."
+        },
+        {
+          "category": "CD",
+          "stats": "Tempo de recarga de ataque mostrado em segundos",
+          "keep": "Comparação Secundária",
+          "use": "Um tempo de recarga menor significa ataques mais rápidos e pode superar um lutador mais lento com dano semelhante."
+        },
+        {
+          "category": "2x Mutação",
+          "stats": "Game pass anunciada como uma chance 200% maior de rolar lutadores mutados",
+          "keep": "Impulso Opcional",
+          "use": "Ative bônus focados em mutação antes de gastar uma grande quantidade de moeda de giro."
+        }
+      ]
+    },
+    "merge-and-leveling-guide": {
+      "title": "Guia de Mesclagem e Nível de Role Anime para Lutar",
+      "intro": "O sistema de mesclagem transforma giros repetidos em poder permanente para a equipe. Selecione primeiro a sua melhor versão de um lutador, preserve mutações valiosas e direcione as cópias duplicadas para a unidade que permanecerá na sua equipe ativa.",
+      "steps": [
+        {
+          "title": "Escolha a Cópia Principal",
+          "description": "Compare a raridade, mutação, DPS, alcance e recarga antes de selecionar o lutador que receberá as futuras mesclagens.",
+          "priority": "Escolha a cópia mutada mais forte ou a de melhor desempenho"
+        },
+        {
+          "title": "Separe as Ramificações de Mutação",
+          "description": "Mantenha as versões Normal, Ouro, Diamante, Nen e Titã organizadas como variantes distintas de lutadores.",
+          "priority": "Não consuma uma mutação valiosa ao aprimorar uma cópia normal mais fraca"
+        },
+        {
+          "title": "Colete Duplicatas Correspondentes",
+          "description": "Continue rolando e salve cópias adicionais de lutadores que já são usados pela sua equipe principal.",
+          "priority": "Duplicatas de equipe são mais úteis do que lutadores não utilizados de baixo impacto"
+        },
+        {
+          "title": "Mescle para Aumentar o Nível",
+          "description": "Use a interface de mesclagem para combinar lutadores iguais e aumentar o nível exibido e a força de combate do lutador selecionado.",
+          "priority": "Concentre as mesclagens em lutadores que permanecem equipados durante as partidas de ondas"
+        },
+        {
+          "title": "Verifique os Atributos Atualizados",
+          "description": "Após a mesclagem, compare o novo DPS, alcance e recarga do lutador com o restante da lista.",
+          "priority": "Mantenha o lutador equipado quando o desempenho aprimorado superar os substitutos disponíveis"
+        },
+        {
+          "title": "Substitua Apenas por uma Melhoria Clara",
+          "description": "Um lutador recém-obtido deve substituir uma unidade com nível apenas quando seu perfil de combate completo oferecer um dano de onda mais útil.",
+          "priority": "Um lutador Lendário mesclado ou um lutador mutado pode continuar sendo mais forte do que um giro de raridade superior sem mesclagem"
+        }
+      ]
+    },
+    "mutations-guide": {
+      "title": "Guia de Mutações de Role Anime para Lutar",
+      "intro": "As mutações criam versões especiais de lutadores obtidos e podem melhorar muito o valor de uma unidade forte. O valor da mutação depende tanto da mutação quanto do lutador base que a possui; portanto, uma mutação especial em um lutador Mítico ou Lendário forte deve normalmente ser protegida, equipada e aprimorada antes de cópias comuns.",
+      "mutations": [
+        {
+          "tier": "S",
+          "mutation": "Nen",
+          "type": "Mutação especial",
+          "bestFor": "Equipes de dano principal e progressão em ondas altas",
+          "keepRule": "Bloqueie o lutador, equipe-o quando seus atributos de combate se ajustarem à equipe e guarde duplicatas de Nen correspondentes para a fusão."
+        },
+        {
+          "tier": "S",
+          "mutation": "Titã",
+          "type": "Mutação especial",
+          "bestFor": "Lutadores de dano de alto valor",
+          "keepRule": "Preserve os lutadores Titã como um ramo de melhoria dedicado e evite usá-los como material de fusão normal."
+        },
+        {
+          "tier": "A",
+          "mutation": "Diamante",
+          "type": "Mutação visual premium",
+          "bestFor": "Melhorias de equipe focadas em dano",
+          "keepRule": "Mantenha cópias de Diamante de lutadores úteis e funda-as apenas com o ramo de Diamante correspondente."
+        },
+        {
+          "tier": "B",
+          "mutation": "Ouro",
+          "type": "Mutação visual aprimorada",
+          "bestFor": "Progressão de início e meio de jogo",
+          "keepRule": "Desenvolva lutadores de Ouro quando eles melhorarem a escalação ativa ou fornecerem um caminho de fusão melhor que a versão normal."
+        },
+        {
+          "tier": "C",
+          "mutation": "Nenhuma",
+          "type": "Lutador padrão",
+          "bestFor": "Equipes iniciais e material de fusão comum",
+          "keepRule": "Mantenha lutadores fortes de raridade alta, mas use cópias normais extras para subir o nível da cópia principal selecionada."
+        }
+      ]
+    },
+    "waves-checkpoints-and-rewards": {
+      "title": "Ondas, Checkpoints e Recompensas de Role Anime para Lutar",
+      "intro": "A progressão de ondas é o principal teste de força da equipe em Role Anime para Lutar. Melhore a parte mais fraca da escalação após cada tentativa falha, alcance o próximo checkpoint, resgate sua recompensa e reinvista esses recursos em giros e fusões.",
+      "stages": [
+        {
+          "stage": "Ondas Iniciais",
+          "objective": "Preencha a equipe ativa e estabeleça dano total suficiente para derrotar os inimigos de forma consistente.",
+          "teamCheck": "Cada posição disponível na equipe deve conter um lutador útil.",
+          "upgrade": "Substitua os lutadores iniciais por unidades mais fortes obtidas nos giros.",
+          "reward": "Gaste os ganhos iniciais em giros adicionais e melhorias imediatas na equipe."
+        },
+        {
+          "stage": "Primeira Partida Estável",
+          "objective": "Conclua várias ondas sem que os inimigos sobrecarreguem a equipe.",
+          "teamCheck": "O dano deve ser distribuído entre vários lutadores consistentes, em vez de um único carry cercado por unidades fracas.",
+          "upgrade": "Mescle duplicatas pertencentes à equipe ativa.",
+          "reward": "Melhore um lutador de cada vez."
+        },
+        {
+          "stage": "Avanço de Checkpoint",
+          "objective": "Sobreviva até o próximo marco de checkpoint e garanta sua recompensa de progressão.",
+          "teamCheck": "Compare o DPS total, o alcance de ataque e o tempo de recarga após cada tentativa fracassada.",
+          "upgrade": "Melhore o lutador que contribui com o dano de onda menos útil.",
+          "reward": "Reinvista as recompensas de checkpoint em giros que possam produzir melhorias ou mesclar duplicatas."
+        },
+        {
+          "stage": "Progressão de Ondas Altas",
+          "objective": "Mantenha dano suficiente à medida que a durabilidade e a pressão dos inimigos aumentam.",
+          "teamCheck": "O elenco deve conter lutadores Lendários, Míticos ou com mutações valiosas de nível alto.",
+          "upgrade": "Desenvolva Diamante, Nen, Titã e outras ramificações de mutação fortes.",
+          "reward": "Economize grandes recompensas para sessões focadas de giros e mesclagem."
+        },
+        {
+          "stage": "Novo Recorde Pessoal",
+          "objective": "Passe da onda mais alta anterior e desbloqueie um checkpoint superior.",
+          "teamCheck": "Evite carregar lutadores de nível baixo não utilizados que contribuem com pouco dano.",
+          "upgrade": "Substitua o slot mais fraco antes de investir mais no slot mais forte.",
+          "reward": "Use la recompensa do marco para fortalecer toda a equipe, em vez de um único lutador que já seja dominante."
+        },
+        {
+          "stage": "Tentativa da Onda Final",
+          "objective": "Use la equipe mais forte disponível para avançar do checkpoint mais alto em direção à onda final.",
+          "teamCheck": "Os lutadores principais devem ser de alta raridade, mesclados a níveis úteis e apoiados por mutações valiosas.",
+          "upgrade": "Melhore o DPS total da equipe, mantendo um alcance prático e tempos de recarga rápidos.",
+          "reward": "Continue o ciclo de giros, mesclagem, checkpoints e recompensas até que a onda final seja concluída."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Perguntas",
+    "titleHighlight": "Frequentes",
+    "subtitle": "Tudo o que você precisa saber sobre o Role Anime para Lutar",
+    "questions": [
+      {
+        "question": "O que é o Role Anime para Lutar?",
+        "answer": "Role Anime para Lutar é um jogo de defesa de anime no Roblox onde você rola lutadores de anime, monta uma equipe, mescla duplicatas para subir o nível delas e sobrevive a ondas infinitas de inimigos enquanto busca checkpoints mais altos e mutações."
+      },
+      {
+        "question": "Como faço para resgatar códigos no Role Anime para Lutar?",
+        "answer": "Abra a opção Códigos no menu do jogo, insira o código exatamente como publicado e clique em resgatar. Novos códigos do Role Anime para Lutar são anunciados na página oficial da experiência no Roblox e na comunidade da Another Slop."
+      },
+      {
+        "question": "Como funciona a fusão em Roll Anime to Fight?",
+        "answer": "A fusão combina lutadores duplicados para aumentar o nível e a força de combate de um lutador. Em Roll Anime to Fight, você deve concentrar as fusões na sua melhor cópia, separar mutações valiosas em seus próprios ramos e usar duplicatas correspondentes no lutador que permanecer equipado."
+      },
+      {
+        "question": "O que são mutações em Roll Anime to Fight?",
+        "answer": "Mutações são versões especiais de lutadores obtidos no gacha, como Ouro, Diamante, Nen e Titã. Em Roll Anime to Fight, uma mutação forte em um lutador Mítico ou Lendário geralmente vale a pena ser protegida, equipada e aprimorada antes de cópias comuns."
+      },
+      {
+        "question": "Onde posso jogar Roll Anime to Fight?",
+        "answer": "Roll Anime to Fight é uma experiência gratuita no Roblox. Você pode iniciá-la diretamente pela página oficial do jogo no Roblox em qualquer dispositivo que suporte a plataforma."
+      },
+      {
+        "question": "Qual é a melhor maneira de progredir em Roll Anime to Fight?",
+        "answer": "Monte uma equipe equilibrada logo no início, funda lutadores duplicados em suas cópias mais fortes, avance nos checkpoints para obter recompensas maiores e reinvesta essas recompensas em rolagens e fusões de unidades melhores para alcançar ondas mais altas."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Pronto para jogar Roll Anime to Fight?",
+    "description": "Junte-se à comunidade da Another Slop para novidades e anúncios de Roll Anime to Fight, ou entre direto no jogo pelo Roblox.",
+    "joinCommunity": "Junte-se à Comunidade",
+    "joinGame": "Jogar no Roblox"
+  },
+  "footer": {
+    "title": "Wiki de Roll Anime to Fight",
+    "description": "Seu centro de recursos completo para códigos, unidades, listas de níveis (tier lists), mutações, guias de fusão e estratégias de ondas de Roll Anime to Fight.",
+    "resources": "Recursos",
+    "community": "Comunidade",
+    "legal": "Legal",
+    "robloxGame": "Página do Jogo no Roblox",
+    "robloxCommunity": "Comunidade da Another Slop",
+    "youtube": "Gameplay no YouTube",
+    "about": "Sobre",
+    "privacy": "Política de Privacidade",
+    "terms": "Termos de Serviço",
+    "copyrightNotice": "Direitos Autorais",
+    "copyright": "© 2026 Wiki de Roll Anime to Fight. Não afiliado aos desenvolvedores de Roll Anime to Fight.",
+    "disclaimer": "Site de recursos não oficial feito por fãs."
   }
 }

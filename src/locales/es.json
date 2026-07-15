@@ -1,12 +1,682 @@
 {
+  "seo": {
+    "home": {
+      "title": "Wiki de Rueda Anime para Luchar - Códigos, Unidades y Mutaciones",
+      "description": "Encuentra códigos de Rueda Anime para Luchar, niveles de unidades, mutaciones, consejos de fusión, estrategias de oleadas, mejoras y guías para principiantes del juego de defensa anime de Roblox.",
+      "keywords": "Rueda Anime para Luchar, Roblox, códigos, tier list, unidades, mutaciones, fusión, oleadas",
+      "ogTitle": "Wiki de Rueda Anime para Luchar - Códigos, Unidades y Mutaciones",
+      "ogDescription": "Encuentra códigos de Rueda Anime para Luchar, niveles de unidades, mutaciones, consejos de fusión, estrategias de oleadas y guías para principiantes del juego de defensa anime de Roblox.",
+      "twitterTitle": "Wiki de Rueda Anime para Luchar - Códigos y Unidades",
+      "twitterDescription": "Códigos de Rueda Anime para Luchar, niveles de unidades, mutaciones, consejos de fusión y estrategias de oleadas para el juego de defensa anime de Roblox."
+    }
+  },
   "nav": {
     "codes": "Códigos",
     "guide": "Guía",
     "tiers": "Tier List",
     "fighters": "Luchadores",
-    "rolling": "Rollos",
+    "rolling": "Tiradas",
     "merging": "Fusión",
     "teams": "Equipos",
     "updates": "Actualizaciones"
+  },
+  "pages": {
+    "codes": {
+      "title": "Códigos de Rueda Anime para Luchar",
+      "description": "Todos los códigos activos de Rueda Anime para Luchar en un solo lugar, con los pasos de canje y las recompensas que otorga cada código: tiradas gratis, gemas y potenciadores.",
+      "metaTitle": "Códigos de Rueda Anime para Luchar (Julio 2026) - Tiradas y Gemas Gratis",
+      "metaDescription": "Canjea los últimos códigos de Rueda Anime para Luchar para obtener tiradas gratis, gemas y potenciadores. Lista actualizada de códigos activos, pasos de canje y lista de códigos caducados.",
+      "categoryLabel": "CANJEAR CÓDIGOS",
+      "whatIs": "¿Qué son los códigos de Rueda Anime para Luchar?",
+      "whatIsDescription": "Los códigos son cadenas promocionales que el desarrollador lanza a través de la experiencia oficial de Roblox y la comunidad de Another Slop. Al introducir un código en el menú de Códigos del juego, se obtienen recompensas gratuitas como tiradas extra, gemas y potenciadores de progreso.",
+      "why": "¿Por qué usar nuestra lista de códigos?",
+      "whySteps": {
+        "step1Title": "Siempre al día",
+        "step1Description": "Monitoreamos la página oficial de Roblox y el canal de la comunidad para que cada código de la lista refleje su estado real de activo o caducado.",
+        "step2Title": "Pasos de canje claros",
+        "step2Description": "Sigue la ruta exacta del menú y el formato de entrada para evitar errores de escritura, espacios adicionales o fallos de mayúsculas que impidan el canje.",
+        "step3Title": "Detalle de recompensas",
+        "step3Description": "Mira lo que otorga cada código antes de canjearlo, para que sepas qué tiradas gratis, gemas o potenciadores llegarán a tu cuenta."
+      },
+      "featured": "Destacados y Esenciales",
+      "all": "Todos los códigos"
+    },
+    "guide": {
+      "title": "Guías de Rueda Anime para Luchar",
+      "description": "Guías paso a paso de Rueda Anime para Luchar que cubren tus primeros giros, controles, supervivencia a las oleadas, puntos de control y combates contra jefes, desde principiante hasta avanzado.",
+      "metaTitle": "Guía de Rueda Anime para Luchar: consejos para principiantes, controles y oleadas",
+      "metaDescription": "Domina Rueda Anime para Luchar con guías para principiantes, controles, estrategias de oleadas y puntos de control, y consejos para combates contra jefes para progresar más rápido en Roblox.",
+      "categoryLabel": "GUÍAS",
+      "whatIs": "¿Qué es una guía de Rueda Anime para Luchar?",
+      "whatIsDescription": "Las guías te muestran el ciclo básico (girar para obtener combatientes, equipar un equipo, sobrevivir a las oleadas, fusionar duplicados y superar puntos de control) con pasos prácticos que puedes seguir durante tu primera sesión.",
+      "why": "¿Por qué leer estas guías?",
+      "whySteps": {
+        "step1Title": "Primeros 30 minutos rápidos",
+        "step1Description": "Pasa de tu primer giro a un equipo funcional sin gastar monedas en los combatientes equivocados.",
+        "step2Title": "Controles y mecánicas",
+        "step2Description": "Aprende los controles de movimiento, colocación y combate para reaccionar más rápido cuando las oleadas se llenen de enemigos.",
+        "step3Title": "Estrategia de oleadas y jefes",
+        "step3Description": "Enfréntate a los puntos de control y combates contra jefes con la composición de equipo adecuada en lugar de ir a ciegas."
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todas las guías"
+    },
+    "tiers": {
+      "title": "Tier list de Rueda Anime para Luchar",
+      "description": "Tier list de Rueda Anime para Luchar que clasifica a cada combatiente según su daño, velocidad de ataque, cobertura y valor a lo largo de las oleadas iniciales, intermedias y avanzadas.",
+      "metaTitle": "Tier list de Rueda Anime para Luchar: clasificación de los mejores combatientes",
+      "metaDescription": "Descubre a los mejores combatientes de Rueda Anime para Luchar clasificados en una tier list completa según su daño, velocidad de ataque y cobertura para las oleadas del juego inicial, medio y avanzado.",
+      "categoryLabel": "TIER LIST",
+      "whatIs": "¿Qué es la tier list de Rueda Anime para Luchar?",
+      "whatIsDescription": "La tier list compara a los combatientes en los rangos S, A, B y C según su daño sostenido, velocidad de ataque, cobertura de enemigos y qué tan bien resisten a medida que la salud de los enemigos aumenta en los puntos de control más altos.",
+      "why": "¿Por qué confiar en esta tier list?",
+      "whySteps": {
+        "step1Title": "Rendimiento sobre rareza",
+        "step1Description": "Los combatientes se evalúan por su daño real en las oleadas y su eficiencia, no solo por el color de su rareza.",
+        "step2Title": "Clasificaciones por etapas",
+        "step2Description": "Las clasificaciones independientes para el juego inicial, medio y avanzado muestran qué combatientes alcanzan su punto máximo en cada etapa de progresión.",
+        "step3Title": "Objetivos de mejora claros",
+        "step3Description": "Usa los rangos para decidir qué duplicados fusionar y qué luchadores merecen tus recursos primero."
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todas las guías de tier lists"
+    },
+    "fighters": {
+      "title": "Luchadores de Rueda Anime para Luchar",
+      "description": "Una lista completa de luchadores de Rueda Anime para Luchar que cubre estadísticas, rarezas, unidades secretas y limitadas, y cómo se obtiene cada luchador.",
+      "metaTitle": "Luchadores de Rueda Anime para Luchar - Estadísticas, rarezas y unidades secretas",
+      "metaDescription": "Explora todos los luchadores de Rueda Anime para Luchar con sus estadísticas, rarezas, unidades secretas y limitadas, y métodos de obtención en una sola lista con buscador.",
+      "categoryLabel": "LUCHADORES",
+      "whatIs": "¿Qué son los luchadores de Rueda Anime para Luchar?",
+      "whatIsDescription": "Los luchadores son las unidades de anime que consigues al girar, equipas y envías a la batalla. Cada uno tiene su propia rareza, daño, alcance, tiempo de recarga y método de obtención, y la lista abarca unidades estándar, secretas y limitadas.",
+      "why": "¿Por qué explorar la lista de luchadores?",
+      "whySteps": {
+        "step1Title": "Referencia completa de estadísticas",
+        "step1Description": "Consulta el daño, DPS, alcance y tiempo de recarga de cualquier luchador antes de invertir recursos en él.",
+        "step2Title": "Explicación de las rarezas",
+        "step2Description": "Entiende cómo influyen los niveles de rareza en el valor y qué unidades vale la pena conservar o fusionar.",
+        "step3Title": "Unidades secretas y limitadas",
+        "step3Description": "Haz un seguimiento de los luchadores secretos y limitados difíciles de encontrar para saber qué buscar y cuándo aparecen."
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todas las guías de luchadores"
+    },
+    "rolling": {
+      "title": "Guía de giros de Rueda Anime para Luchar",
+      "description": "Guía de giros de Rueda Anime para Luchar que cubre las probabilidades de giro, la suerte, las probabilidades de luchadores raros, la estrategia de giro y cómo conseguir más giros de manera eficiente.",
+      "metaTitle": "Guía de giros de Rueda Anime para Luchar - Tasas, suerte y probabilidades",
+      "metaDescription": "Aprende las tasas de giro, las bonificaciones de suerte, las probabilidades de luchadores raros y la estrategia de giro de Rueda Anime para Luchar para conseguir unidades más fuertes y obtener más giros más rápido.",
+      "categoryLabel": "GIROS",
+      "whatIs": "¿Qué es girar en Rueda Anime para Luchar?",
+      "whatIsDescription": "Girar es la forma de obtener nuevos luchadores. Cada giro sigue unas tasas establecidas y se ve afectado por las bonificaciones de suerte, por lo que entender las probabilidades y la estrategia te ayudará a conseguir unidades raras y mutadas de forma más fiable.",
+      "why": "¿Por qué aprender la estrategia de giros?",
+      "whySteps": {
+        "step1Title": "Conoce las tasas de giro",
+        "step1Description": "Consulta la probabilidad real detrás de cada rareza para poder planificar tus giros en lugar de depender de la suerte.",
+        "step2Title": "Acumula bonificaciones de suerte",
+        "step2Description": "Aplica potenciadores de suerte y el momento oportuno para aumentar tus probabilidades de obtener luchadores raros y con mutaciones.",
+        "step3Title": "Tira con eficiencia",
+        "step3Description": "Sigue estrategias y métodos de tiro probados para ganar más tiradas y evitar desperdiciar divisas."
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todas las guías de tiro"
+    },
+    "merging": {
+      "title": "Guía de fusión de Rueda Anime para Luchar",
+      "description": "Guía de fusión de Rueda Anime para Luchar que cubre la fusión de duplicados, subida de nivel, nivel máximo de luchador, prioridades de fusión y eficiencia de recursos.",
+      "metaTitle": "Guía de fusión de Rueda Anime para Luchar - Niveles y prioridades",
+      "metaDescription": "Domina la fusión de Rueda Anime para Luchar: fusiona duplicados, sube niveles, alcanza el nivel máximo de luchador, establece prioridades de fusión y gasta recursos de forma eficiente.",
+      "categoryLabel": "FUSIÓN",
+      "whatIs": "¿Qué es la fusión en Rueda Anime para Luchar?",
+      "whatIsDescription": "La fusión combina luchadores duplicados para aumentar el nivel y la fuerza de combate de una unidad. Es la forma principal de convertir tiradas repetidas en poder de equipo permanente, por lo que elegir la copia y el orden de fusión adecuados es importante.",
+      "why": "¿Por qué seguir una estrategia de fusión?",
+      "whySteps": {
+        "step1Title": "Sube de nivel más rápido",
+        "step1Description": "Alimenta tu mejor copia con duplicados idénticos para llevar a los luchadores al nivel máximo sin desperdiciar fusiones.",
+        "step2Title": "Prioridades de fusión inteligentes",
+        "step2Description": "Decide qué luchadores merecen fusionarse primero y qué unidades de baja rareza no valen la inversión.",
+        "step3Title": "Gestiona los duplicados correctamente",
+        "step3Description": "Mantén las mutaciones valiosas en ramas separadas y solo fusiona duplicados que realmente mejoren tu equipo activo."
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todas las guías de fusión"
+    },
+    "teams": {
+      "title": "Mejores equipos de Rueda Anime para Luchar",
+      "description": "Guías de creación de equipos de Rueda Anime para Luchar que cubren los mejores equipos para el inicio, mitad del juego, oleadas y centrados en mutaciones, además de cómo equipar más luchadores.",
+      "metaTitle": "Mejores equipos de Rueda Anime para Luchar - Configuraciones para cada etapa",
+      "metaDescription": "Crea los mejores equipos de Rueda Anime para Luchar para el inicio del juego, supervivencia en oleadas y mutaciones, con consejos de creación de equipos y cómo equipar más luchadores.",
+      "categoryLabel": "EQUIPOS",
+      "whatIs": "¿Qué hace que un equipo de Rueda Anime para Luchar sea fuerte?",
+      "whatIsDescription": "Un equipo fuerte equilibra el daño concentrado, atacantes rápidos, amplia cobertura de enemigos y mutaciones útiles. La composición adecuada cambia a medida que progresas desde los primeros puntos de control hasta las oleadas más altas.",
+      "why": "¿Por qué usar estas configuraciones de equipo?",
+      "whySteps": {
+        "step1Title": "Configuraciones para cada etapa",
+        "step1Description": "Sigue equipos ya preparados para oleadas iniciales, intermedias y avanzadas, ajustados a tu progreso actual.",
+        "step2Title": "Creación de equipos más inteligente",
+        "step2Description": "Aprende qué roles cubrir y cómo mezclar daño concentrado y de área para superar oleadas de forma constante.",
+        "step3Title": "Equipar más luchadores",
+        "step3Description": "Descubre cómo ampliar tu alineación activa para que más de tus unidades más fuertes puedan luchar a la vez."
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todas las guías de equipos"
+    },
+    "updates": {
+      "title": "Actualizaciones de Rueda Anime para Luchar",
+      "description": "Actualizaciones de Rueda Anime para Luchar que cubren el último parche, el registro de cambios, nuevas unidades, ajustes de equilibrio y dónde seguir a la comunidad.",
+      "metaTitle": "Actualizaciones de Rueda Anime para Luchar - Último parche y registro de cambios",
+      "metaDescription": "Sigue las actualizaciones de Rueda Anime para Luchar, incluyendo el último parche, el registro de cambios completo, nuevas unidades, ajustes de equilibrio y canales oficiales de la comunidad.",
+      "categoryLabel": "ACTUALIZACIONES",
+      "whatIs": "¿Qué son las actualizaciones de Rueda Anime para Luchar?",
+      "whatIsDescription": "Las actualizaciones registran cambios de versión, nuevos luchadores, ajustes de equilibrio, eventos y rediseños de sistemas. Mantenerse al día te ayuda a adaptar tu equipo y tus tiradas a los cambios del último parche.",
+      "why": "¿Por qué seguir las actualizaciones de Rueda Anime para Luchar?",
+      "whySteps": {
+        "step1Title": "El parche más reciente primero",
+        "step1Description": "Mira qué ha cambiado en la última actualización en cuanto se publique, desde nuevas unidades hasta retoques de equilibrio.",
+        "step2Title": "Registro de cambios completo",
+        "step2Description": "Revisa las actualizaciones anteriores en orden para entender cómo han evolucionado el juego y sus luchadores.",
+        "step3Title": "Mantente conectado",
+        "step3Description": "Encuentra las comunidades adecuadas en Reddit y Discord para enterarte de los anuncios y debatir las actualizaciones con otros jugadores."
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todas las guías de actualizaciones"
+    }
+  },
+  "common": {
+    "home": "Inicio",
+    "more": "Más",
+    "playNow": "Jugar en Roblox",
+    "switchLanguage": "Cambiar idioma",
+    "switchTheme": "Cambiar tema",
+    "lightMode": "Modo claro",
+    "darkMode": "Modo oscuro",
+    "notFound": "Página no encontrada",
+    "notFoundDescription": "La página que buscas no existe.",
+    "backToHome": "Volver al inicio",
+    "relatedArticles": "Artículos relacionados",
+    "readMore": "Leer más",
+    "articlesComingSoon": "Artículos próximamente"
+  },
+  "hero": {
+    "badge": "Simulador de defensa gacha de anime",
+    "title": "Wiki de Rueda Anime para Luchar",
+    "description": "Gira luchadores de anime raros, fusiona duplicados para subirlos de nivel, forma un equipo poderoso y sobrevive a oleadas infinitas de enemigos mientras buscas puntos de control y mutaciones superiores.",
+    "getFreeCodesCTA": "Consigue códigos gratis",
+    "playOnRobloxCTA": "Jugar en Roblox",
+    "stats": {
+      "stat1": {
+        "value": "530K+",
+        "label": "Visitas totales"
+      },
+      "stat2": {
+        "value": "1.1K+",
+        "label": "Pico de CCU"
+      },
+      "stat3": {
+        "value": "95%",
+        "label": "Calificación de los jugadores"
+      },
+      "stat4": {
+        "value": "10 de junio de 2026",
+        "label": "Fecha de lanzamiento"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Jugabilidad de Rueda Anime para Luchar",
+    "description": "Gira luchadores de anime, fusiona duplicados, forma un equipo poderoso y sobrevive a oleadas infinitas de enemigos en este juego de defensa de anime de Roblox."
+  },
+  "tools": {
+    "title": "Rueda Anime para Luchar",
+    "titleHighlight": "Recursos",
+    "subtitle": "Todo lo que necesitas para girar luchadores, formar equipos, fusionar unidades y superar oleadas infinitas en Rueda Anime para Luchar.",
+    "cards": [
+      {
+        "icon": "Regalo",
+        "title": "Códigos de Rueda Anime para Luchar",
+        "description": "Códigos activos, pasos de canje y dónde conseguir nuevos códigos"
+      },
+      {
+        "icon": "Brújula",
+        "title": "Guía para principiantes de Rueda Anime para Luchar",
+        "description": "Primeros giros, creación de equipos, fusión y primeros puntos de control"
+      },
+      {
+        "icon": "Trofeo",
+        "title": "Lista de niveles de Rueda Anime para Luchar",
+        "description": "Clasifica a los luchadores por daño, velocidad, cobertura y mutaciones"
+      },
+      {
+        "icon": "Usuarios",
+        "title": "Mejores equipos de Rueda Anime para Luchar",
+        "description": "Configuraciones de equipo para juego temprano, medio, oleadas altas y centradas en mutaciones"
+      },
+      {
+        "icon": "Dados",
+        "title": "Guía de giros y rarezas de Rueda Anime para Luchar",
+        "description": "Niveles de rareza, probabilidades de giro y qué luchadores conservar"
+      },
+      {
+        "icon": "GitMerge",
+        "title": "Guía de fusión y subida de nivel de Rueda Anime para Luchar",
+        "description": "Fusiona duplicados, sube de nivel y protege las mutaciones"
+      },
+      {
+        "icon": "Átomo",
+        "title": "Guía de mutaciones de Rueda Anime para Luchar",
+        "description": "Prioridades de conservación para mutaciones Nen, Titán, Diamante y Oro"
+      },
+      {
+        "icon": "Oleadas",
+        "title": "Oleadas, puntos de control y recompensas de Rueda Anime para Luchar",
+        "description": "Progresión de oleadas, puntos de control y recompensas por hitos"
+      }
+    ]
+  },
+  "modules": {
+    "codes": {
+      "title": "Códigos de Rueda Anime para Luchar",
+      "intro": "Rueda Anime para Luchar incluye un menú de códigos en el juego para recompensas promocionales. Introduce los códigos exactamente como se publicaron, ya que la ortografía, las mayúsculas y los espacios adicionales pueden impedir el canje.",
+      "checkedOn": "Verificado el 15 de julio de 2026",
+      "statusCards": [
+        {
+          "group": "Códigos activos",
+          "message": "Estamos monitoreando activamente la experiencia oficial de Roblox y la página de la comunidad de Another Slop. Aún no se ha publicado ningún código activo, así que vuelve pronto cuando el desarrollador lance nuevos códigos de Rueda Anime para Luchar."
+        },
+        {
+          "group": "Códigos expirados",
+          "message": "Aún no se ha archivado ningún código expirado. Una vez que los códigos se lancen y luego se retiren, cada uno aparecerá aquí junto con la recompensa que solía otorgar."
+        }
+      ],
+      "redeemSteps": [
+        "Inicia Rueda Anime para Luchar en Roblox.",
+        "Abre la opción de Códigos en el menú del juego.",
+        "Introduce el código exactamente como fue publicado.",
+        "Presiona el botón de canjear y recoge la recompensa."
+      ],
+      "sources": [
+        {
+          "name": "Página de Roblox de Rueda Anime para Luchar",
+          "purpose": "Descripción del juego, notas de actualización y anuncios del desarrollador"
+        },
+        {
+          "name": "Comunidad de Roblox de Another Slop",
+          "purpose": "Anuncios de la comunidad y futuros lanzamientos de códigos"
+        }
+      ]
+    },
+    "beginner-guide": {
+      "title": "Guía para principiantes de Rueda Anime para Luchar",
+      "intro": "El ciclo básico es simple: rueda luchadores de anime, equipa a tu equipo más fuerte, sobrevive a las oleadas de enemigos, fusiona luchadores duplicados y sigue superando puntos de control. El progreso inicial es más rápido cuando mejoras un equipo pequeño y funcional en lugar de repartir los recursos entre todos los luchadores.",
+      "steps": [
+        {
+          "title": "Rueda tus primeros luchadores",
+          "description": "Usa el sistema de tiradas inicial para obtener tus primeros luchadores de anime. Conserva suficientes luchadores útiles para llenar tu equipo activo antes de fusionar duplicados.",
+          "priority": "Construye un equipo completo primero"
+        },
+        {
+          "title": "Compara el rendimiento en combate",
+          "description": "Revisa el daño, la velocidad de ataque, el alcance del ataque, el nivel, la rareza y la mutación de cada luchador. Un luchador de menor rareza con mejor daño práctico puede seguir siendo útil durante las primeras oleadas.",
+          "priority": "Juzga el rendimiento, no solo la rareza"
+        },
+        {
+          "title": "Construye un equipo equilibrado",
+          "description": "Combina luchadores que inflijan un fuerte daño concentrado con luchadores que cubran a grupos más grandes de enemigos. Evita llenar todas las casillas con atacantes lentos que hagan la misma función.",
+          "priority": "Mezcla daño concentrado y ataques más amplios"
+        },
+        {
+          "title": "Comienza las oleadas infinitas",
+          "description": "Entra en batalla y deja que tus luchadores equipados despejen las oleadas de enemigos entrantes. Observa qué luchadores aportan daño de forma constante y cuáles se quedan atrás.",
+          "priority": "Usa los resultados de la batalla para mejorar el equipo"
+        },
+        {
+          "title": "Fusiona luchadores duplicados",
+          "description": "Fusiona luchadores de anime duplicados para aumentar sus niveles y mejorar su valor de combate. No fusiones un duplicado que aún sea necesario para completar tu alineación activa.",
+          "priority": "Fusiona primero las copias sobrantes"
+        },
+        {
+          "title": "Alcanza nuevos puntos de control",
+          "description": "Supera oleadas cada vez más difíciles para alcanzar puntos de control más altos y obtener mayores recompensas de progreso. Vuelve a realizar tiradas y fusiones cuando tu equipo ya no pueda despejar las oleadas de manera eficiente.",
+          "priority": "Mejora antes de reintentar repetidamente un obstáculo"
+        },
+        {
+          "title": "Protege a los luchadores raros y las mutaciones",
+          "description": "Revisa los luchadores raros y los efectos de las mutaciones antes de usarlos como material de fusión. Una mutación útil puede hacer que un luchador sea más valioso que otra unidad con una rareza base mayor.",
+          "priority": "Bloquea las unidades valiosas antes de fusionar"
+        }
+      ]
+    },
+    "anime-tier-list": {
+      "title": "Lista de niveles de Rueda Anime para Luchar",
+      "intro": "La rareza de un luchador es solo una parte de su valor. Las unidades más fuertes combinan un daño constante con una velocidad de ataque o alcance útiles, y siguen rindiendo después de que la salud de los enemigos aumente en los puntos de control más altos.",
+      "tiers": [
+        {
+          "tier": "S",
+          "label": "Núcleo para oleadas altas",
+          "profile": "Luchadores con el mejor daño sostenido, velocidad de ataque eficiente, gran alcance de enemigos o una mutación poderosa que sigue siendo útil en oleadas difíciles.",
+          "bestUse": "Equipo principal permanente e inversión en mejoras importantes",
+          "mergeRule": "Conserva cada copia fuerte hasta que el equipo principal esté completo"
+        },
+        {
+          "tier": "A",
+          "label": "Luchadores fuertes del equipo principal",
+          "profile": "Luchadores que destacan en daño concentrado, velocidad de ataque o ataques más amplios, pero que no combinan todas las ventajas de nivel superior.",
+          "bestUse": "Equipos para el inicio, mitad del juego y la mayoría de los puntos de control",
+          "mergeRule": "Sube de nivel la mejor copia y fusiona los duplicados no utilizados"
+        },
+        {
+          "tier": "B",
+          "label": "Luchadores de progresión constante",
+          "profile": "Luchadores constantes que despejan las oleadas iniciales y medias, pero comienzan a perder eficiencia cuando la salud de los enemigos y la presión de las oleadas aumentan.",
+          "bestUse": "Equipos iniciales, mejoras temporales y para cubrir roles faltantes",
+          "mergeRule": "Reemplaza gradualmente a medida que consigas mejores luchadores en los rolls"
+        },
+        {
+          "tier": "C",
+          "label": "Rellenos para el inicio del juego",
+          "profile": "Luchadores de bajo rendimiento con daño limitado, ataques lentos, poco alcance o sin ventajas de mutación.",
+          "bestUse": "Para ocupar espacios vacíos en el equipo durante los primeros rolls",
+          "mergeRule": "Usa las copias sobrantes como material de fusión tras obtener reemplazos"
+        }
+      ]
+    },
+    "best-teams": {
+      "title": "Mejores equipos de Rueda Anime para Luchar",
+      "intro": "El mejor equipo no siempre es la alineación con la rareza visible más alta. Los equipos fuertes combinan luchadores mejorados, daño rápido o constante, mayor alcance de enemigos y mutaciones útiles para manejar eficientemente las diferentes condiciones de las oleadas.",
+      "teams": [
+        {
+          "name": "Equipo inicial para el comienzo del juego",
+          "stage": "Primeros rolls y puntos de control iniciales",
+          "roles": [
+            "Luchador disponible con el mayor daño",
+            "Luchador de ataque rápido",
+            "Luchador de gran alcance",
+            "Mejores luchadores restantes con nivel"
+          ],
+          "strategy": "Ocupa todas las posiciones disponibles del equipo antes de fusionar unidades intensamente. Reemplaza a los luchadores iniciales débiles uno por uno a medida que aparezcan mejores en los rolls.",
+          "priority": "Completa el equipo y luego fusiona los duplicados"
+        },
+        {
+          "name": "Equipo equilibrado para la mitad del juego",
+          "stage": "Progresión estable y farmeo de puntos de control",
+          "roles": [
+            "Luchador fuerte de daño concentrado",
+            "Uno o más luchadores de ataque amplio",
+            "Atacante rápido y constante",
+            "Mejor portador de mutación útil"
+          ],
+          "strategy": "Equilibra el daño concentrado para enemigos difíciles con ataques más amplios para oleadas concurridas. Invierte las fusiones en luchadores que se mantengan activos y útiles durante cada batalla.",
+          "priority": "Principal causante de daño, luchador de cobertura, portador de mutación"
+        },
+        {
+          "name": "Equipo de daño para oleadas altas",
+          "stage": "Puntos de control avanzados y oleadas difíciles",
+          "roles": [
+            "Mejores luchadores de daño sostenido",
+            "Atacantes rápidos con gran tiempo de actividad",
+            "Luchador de cobertura amplia de alto valor",
+            "Unidades totalmente fusionadas o con mutaciones fuertes"
+          ],
+          "strategy": "Elimina a los luchadores cuyo daño se quede muy atrás del resto de la alineación. Prioriza el rendimiento comprobado en oleadas altas en lugar de conservar una unidad solo por su mayor rareza.",
+          "priority": "Daño sostenido y eficiencia de ataque"
+        },
+        {
+          "name": "Equipo centrado en mutaciones",
+          "stage": "Optimización de la alineación",
+          "roles": [
+            "Mutación beneficiosa más fuerte",
+            "Luchadores de nivel alto fusionados con duplicados",
+            "Opción de daño concentrado",
+            "Opción de cobertura amplia"
+          ],
+          "strategy": "Compara a los luchadores mutados directamente con alternativas de mayor rareza durante el mismo rango de oleadas. Conserva las mutaciones que mejoren notablemente el daño, la velocidad o la capacidad general de limpieza.",
+          "priority": "La mejor combinación de mutación y luchador de alto rendimiento"
+        }
+      ],
+      "checklist": {
+        "title": "Lista de verificación para crear equipos",
+        "stage": "Antes de comenzar una nueva partida de oleadas",
+        "checks": [
+          "Todos los puestos disponibles del equipo están ocupados",
+          "La alineación incluye tanto daño concentrado como amplio",
+          "Las mutaciones útiles están equipadas en lugar de haberse perdido al fusionar",
+          "Las copias duplicadas se han fusionado en luchadores activos",
+          "Los luchadores de bajo rendimiento han sido reemplazados",
+          "Las unidades más fuertes reciben las mejoras primero"
+        ]
+      }
+    },
+    "rolling-and-rarities-guide": {
+      "title": "Guía de tiradas y rarezas de Rueda Anime para Luchar",
+      "intro": "Cada tirada puede producir un nuevo luchador con su propia rareza, daño, alcance, enfriamiento, rasgo y mutación. Compara la carta completa del luchador en lugar de elegir unidades solo por el color de rareza. Los luchadores míticos y legendarios son tiradas valiosas, mientras que las versiones mutadas como Oro, Diamante, Nen y Titán deben conservarse como líneas de mejora separadas.",
+      "rows": [
+        {
+          "category": "Mítico",
+          "stats": "Nivel, DPS, RNG, CD, rasgo y mutación",
+          "keep": "Máxima",
+          "use": "Equipa luchadores míticos fuertes de inmediato y conserva cada duplicado útil para fusionar."
+        },
+        {
+          "category": "Legendario",
+          "stats": "Nivel, DPS, RNG, CD, rasgo y mutación",
+          "keep": "Alta",
+          "use": "Usa luchadores legendarios mientras construyes una plantilla mítica. Fusiona los duplicados coincidentes en lugar de descartarlos."
+        },
+        {
+          "category": "Luchador mutado",
+          "stats": "Aparece una etiqueta de mutación con el luchador, que incluye Oro, Diamante, Nen o Titán",
+          "keep": "Alta",
+          "use": "Mantén las copias mutadas separadas de las copias normales y desarrolla la rama de mutación más fuerte."
+        },
+        {
+          "category": "Duplicado estándar",
+          "stats": "Mismo nombre de luchador sin etiqueta de mutación especial",
+          "keep": "Material de fusión",
+          "use": "Alimenta con duplicados coincidentes al luchador seleccionado para tu equipo activo."
+        },
+        {
+          "category": "DPS",
+          "stats": "Daño infligido por segundo",
+          "keep": "Comparación primaria",
+          "use": "Prioriza un DPS más alto cuando dos luchadores tengan una rareza y velocidad de ataque similares."
+        },
+        {
+          "category": "RNG",
+          "stats": "El alcance de ataque del luchador",
+          "keep": "Comparación secundaria",
+          "use": "Usa luchadores de mayor alcance cuando los enemigos escapen antes de que las unidades de corto alcance puedan atacar."
+        },
+        {
+          "category": "CD",
+          "stats": "Enfriamiento de ataque mostrado en segundos",
+          "keep": "Comparación secundaria",
+          "use": "Un enfriamiento más bajo significa ataques más rápidos y puede superar a un luchador más lento con un daño similar."
+        },
+        {
+          "category": "Mutación x2",
+          "stats": "Pase de juego promocionado con un 200 % más de probabilidad de obtener luchadores mutados al girar",
+          "keep": "Potenciador opcional",
+          "use": "Activa las bonificaciones enfocadas en mutaciones antes de gastar una gran cantidad de moneda de giros."
+        }
+      ]
+    },
+    "merge-and-leveling-guide": {
+      "title": "Guía de fusión y nivelación de Rueda Anime para Luchar",
+      "intro": "El sistema de fusión convierte los giros repetidos en poder de equipo permanente. Selecciona primero tu mejor versión de un luchador, conserva las mutaciones valiosas y dirige los duplicados coincidentes hacia la copia que permanecerá en tu equipo activo.",
+      "steps": [
+        {
+          "title": "Elige la copia principal",
+          "description": "Compara la rareza, mutación, DPS, alcance y tiempo de recarga antes de seleccionar al luchador que recibirá las futuras fusiones.",
+          "priority": "Elige la copia mutada más fuerte o de mejor rendimiento"
+        },
+        {
+          "title": "Ramas de mutación separadas",
+          "description": "Mantén las versiones normal, de Oro, de Diamante, Nen y Titán organizadas como variantes de luchadores separadas.",
+          "priority": "No consumas una mutación valiosa al mejorar una copia normal más débil"
+        },
+        {
+          "title": "Colecciona duplicados coincidentes",
+          "description": "Sigue girando y guarda copias adicionales de los luchadores que ya usa tu equipo principal.",
+          "priority": "Los duplicados del equipo son más útiles que los luchadores de bajo impacto que no se usan"
+        },
+        {
+          "title": "Fusionar para subir de nivel",
+          "description": "Usa la interfaz de fusión para combinar luchadores idénticos y aumentar el nivel mostrado y la fuerza de combate del luchador seleccionado.",
+          "priority": "Concentra las fusiones en los luchadores que permanecen equipados durante las oleadas"
+        },
+        {
+          "title": "Revisa las estadísticas actualizadas",
+          "description": "Después de fusionar, compara el nuevo DPS, alcance y tiempo de recarga del luchador con el resto de la plantilla.",
+          "priority": "Mantén al luchador equipado cuando su rendimiento mejorado supere a los reemplazos disponibles"
+        },
+        {
+          "title": "Reemplaza solo por una mejora evidente",
+          "description": "Un luchador recién obtenido al girar solo debería reemplazar a una unidad con nivel cuando su perfil de combate completo proporcione un daño de oleada más útil.",
+          "priority": "Un luchador legendario fusionado o mutado puede seguir siendo más fuerte que uno de mayor rareza obtenido sin fusionar"
+        }
+      ]
+    },
+    "mutations-guide": {
+      "title": "Guía de mutaciones de Rueda Anime para Luchar",
+      "intro": "Las mutaciones crean versiones especiales de los luchadores obtenidos al girar y pueden mejorar enormemente el valor de una unidad fuerte. El valor de la mutación depende tanto de la mutación como del luchador base que la porta, por lo que una mutación especial en un luchador mítico o legendario fuerte normalmente debería protegerse, equiparse y mejorarse antes que las copias comunes.",
+      "mutations": [
+        {
+          "tier": "S",
+          "mutation": "Nen",
+          "type": "Mutación especial",
+          "bestFor": "Equipos de daño principal y progresión en oleadas altas",
+          "keepRule": "Bloquea al luchador, equípalo cuando sus estadísticas de combate se adapten al equipo y guarda los duplicados de Nen coincidentes para fusionarlos."
+        },
+        {
+          "tier": "S",
+          "mutation": "Titán",
+          "type": "Mutación especial",
+          "bestFor": "Luchadores de daño de alto valor",
+          "keepRule": "Conserva a los luchadores Titán como una rama de mejora dedicada y evita usarlos como material de fusión normal."
+        },
+        {
+          "tier": "A",
+          "mutation": "Diamante",
+          "type": "Mutación visual prémium",
+          "bestFor": "Mejoras de equipo enfocadas en el daño",
+          "keepRule": "Conserva las copias de Diamante de los luchadores útiles y fusiónalas solo con la rama de Diamante correspondiente."
+        },
+        {
+          "tier": "B",
+          "mutation": "Oro",
+          "type": "Mutación visual mejorada",
+          "bestFor": "Progresión en el juego temprano y medio",
+          "keepRule": "Desarrolla luchadores de Oro cuando mejoren la alineación activa o proporcionen una mejor ruta de fusión que la versión normal."
+        },
+        {
+          "tier": "C",
+          "mutation": "Ninguna",
+          "type": "Luchador estándar",
+          "bestFor": "Equipos iniciales y material de fusión regular",
+          "keepRule": "Conserva a los luchadores fuertes de rareza alta, pero usa las copias normales adicionales para subir de nivel la copia principal seleccionada."
+        }
+      ]
+    },
+    "waves-checkpoints-and-rewards": {
+      "title": "Puntos de control y recompensas de oleadas de Rueda Anime para Luchar",
+      "intro": "La progresión de oleadas es la prueba principal de la fuerza del equipo en Rueda Anime para Luchar. Mejora la parte más débil de la alineación después de cada intento fallido, llega al siguiente punto de control, reclama su recompensa y reinvierte esos recursos en giros y fusiones.",
+      "stages": [
+        {
+          "stage": "Oleadas iniciales",
+          "objective": "Llena el equipo activo y establece suficiente daño total para eliminar a los enemigos de manera constante.",
+          "teamCheck": "Cada posición disponible en el equipo debe contener a un luchador útil.",
+          "upgrade": "Reemplaza a los luchadores iniciales con unidades más fuertes obtenidas en los giros.",
+          "reward": "Gasta las ganancias iniciales en giros adicionales y mejoras inmediatas para el equipo."
+        },
+        {
+          "stage": "Primera partida estable",
+          "objective": "Supera varias oleadas sin que los enemigos abrumen al equipo.",
+          "teamCheck": "El daño debe distribuirse entre varios luchadores constantes en lugar de un solo atacante principal rodeado de unidades débiles.",
+          "upgrade": "Fusiona los duplicados que pertenezcan al equipo activo.",
+          "reward": "Mejora a un luchador a la vez."
+        },
+        {
+          "stage": "Avance de puntos de control",
+          "objective": "Sobrevive hasta el siguiente hito de punto de control y asegura su recompensa de progresión.",
+          "teamCheck": "Compara el DPS total, el rango de ataque y el tiempo de recarga después de cada intento fallido.",
+          "upgrade": "Mejora al luchador que aporte el daño de oleada menos útil.",
+          "reward": "Reinvierte las recompensas de los puntos de control en giros que puedan generar mejoras o fusionar duplicados."
+        },
+        {
+          "stage": "Progresión de oleadas altas",
+          "objective": "Mantén el daño suficiente a medida que aumentan la durabilidad y la presión de los enemigos.",
+          "teamCheck": "La plantilla debe contener luchadores legendarios, míticos o mutados valiosos que hayan subido de nivel.",
+          "upgrade": "Desarrolla Diamante, Nen, Titán y otras ramas de mutaciones fuertes.",
+          "reward": "Guarda las grandes recompensas para sesiones enfocadas en giros y fusiones."
+        },
+        {
+          "stage": "Nuevo récord personal",
+          "objective": "Supera la oleada más alta anterior y desbloquea un punto de control superior.",
+          "teamCheck": "Evita llevar luchadores de nivel bajo sin usar que aporten poco daño.",
+          "upgrade": "Reemplaza la ranura más débil antes de invertir más en la más fuerte.",
+          "reward": "Usa la recompensa del hito para fortalecer a todo el equipo en lugar de a un solo luchador que ya sea dominante."
+        },
+        {
+          "stage": "Intento de oleada final",
+          "objective": "Usa el equipo más fuerte disponible para avanzar desde el punto de control más alto hacia la oleada final.",
+          "teamCheck": "Los luchadores principales deben ser de rareza alta, estar fusionados a niveles útiles y contar con el apoyo de mutaciones valiosas.",
+          "upgrade": "Mejora el DPS total del equipo mientras mantienes un rango práctico y tiempos de recarga rápidos.",
+          "reward": "Continúa el ciclo de girar, fusionar, alcanzar puntos de control y obtener recompensas hasta superar la oleada final."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Preguntas",
+    "titleHighlight": "frecuentes",
+    "subtitle": "Todo lo que necesitas saber sobre Rueda Anime para Luchar",
+    "questions": [
+      {
+        "question": "¿Qué es Rueda Anime para Luchar?",
+        "answer": "Rueda Anime para Luchar es un juego de defensa de anime en Roblox donde giras para obtener luchadores de anime, creas un equipo, fusionas duplicados para subirlos de nivel y sobrevives a oleadas infinitas de enemigos mientras buscas puntos de control más altos y mutaciones."
+      },
+      {
+        "question": "¿Cómo canjeo códigos en Rueda Anime para Luchar?",
+        "answer": "Abre la opción Códigos en el menú del juego, introduce el código exactamente como se publicó y presiona canjear. Los nuevos códigos de Rueda Anime para Luchar se anuncian en la página oficial de la experiencia de Roblox y en la comunidad de Another Slop."
+      },
+      {
+        "question": "¿Cómo funciona la fusión en Rueda Anime para Luchar?",
+        "answer": "La fusión combina luchadores duplicados para aumentar el nivel y la fuerza de combate de un luchador. En Rueda Anime para Luchar, debes concentrar las fusiones en tu mejor copia, separar las mutaciones valiosas en sus propias ramas y alimentar al luchador que permanezca equipado con los duplicados correspondientes."
+      },
+      {
+        "question": "¿Qué son las mutaciones en Rueda Anime para Luchar?",
+        "answer": "Las mutaciones son versiones especiales de los luchadores obtenidos, como Oro, Diamante, Nen y Titán. En Rueda Anime para Luchar, normalmente vale la pena proteger, equipar y mejorar una mutación fuerte en un luchador Mítico o Legendario antes que las copias ordinarias."
+      },
+      {
+        "question": "¿Dónde puedo jugar a Rueda Anime para Luchar?",
+        "answer": "Rueda Anime para Luchar es una experiencia gratuita de Roblox. Puedes iniciarla directamente desde la página oficial del juego en Roblox en cualquier dispositivo compatible con Roblox."
+      },
+      {
+        "question": "¿Cuál es la mejor manera de progresar en Rueda Anime para Luchar?",
+        "answer": "Crea un equipo equilibrado desde el principio, fusiona los luchadores duplicados en tus copias más fuertes, avanza por los puntos de control para obtener mayores recompensas y reinvierte esas recompensas en hacer tiradas y fusionar mejores unidades para alcanzar oleadas más altas."
+      }
+    ]
+  },
+  "cta": {
+    "title": "¿Listo para jugar a Rueda Anime para Luchar?",
+    "description": "Únete a la comunidad de Another Slop para recibir actualizaciones y anuncios de Rueda Anime para Luchar, o entra directamente al juego en Roblox.",
+    "joinCommunity": "Únete a la comunidad",
+    "joinGame": "Jugar en Roblox"
+  },
+  "footer": {
+    "title": "Wiki de Rueda Anime para Luchar",
+    "description": "Tu centro de recursos completo para códigos, unidades, listas de niveles, mutaciones, guías de fusión y estrategias de oleadas de Rueda Anime para Luchar.",
+    "resources": "Recursos",
+    "community": "Comunidad",
+    "legal": "Legal",
+    "robloxGame": "Página del juego en Roblox",
+    "robloxCommunity": "Comunidad de Another Slop",
+    "youtube": "Gameplay en YouTube",
+    "about": "Acerca de",
+    "privacy": "Política de privacidad",
+    "terms": "Términos de servicio",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Wiki de Rueda Anime para Luchar. No afiliada con los desarrolladores de Rueda Anime para Luchar.",
+    "disclaimer": "Sitio web de recursos no oficial creado por fans."
   }
 }
